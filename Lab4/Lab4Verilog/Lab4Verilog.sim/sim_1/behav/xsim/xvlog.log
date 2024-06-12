@@ -1,0 +1,40 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/alexr/Documents/Projects/ECE-369/Lab4/Lab4Verilog/Lab4Verilog.srcs/sources_1/imports/DatapathComponents/ALU32Bit/ALU32Bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU32Bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/alexr/Documents/Projects/ECE-369/Lab4/Lab4Verilog/Lab4Verilog.srcs/sources_1/new/Adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/alexr/Documents/Projects/ECE-369/Lab4/Lab4Verilog/Lab4Verilog.srcs/sources_1/new/Controller.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Controller
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/alexr/Documents/Projects/ECE-369/Lab4/Lab4Verilog/Lab4Verilog.srcs/sources_1/imports/DatapathComponents/DataMemory/DataMemory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DataMemory
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/alexr/Documents/Projects/ECE-369/Lab4/Lab4Verilog/Lab4Verilog.srcs/sources_1/new/EX_MEM_Register.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EX_MEM_Register
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/alexr/Documents/Projects/ECE-369/Lab4/Lab4Verilog/Lab4Verilog.srcs/sources_1/new/ID_EX_Register.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ID_EX_Register
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/alexr/Documents/Projects/ECE-369/Lab4/Lab4Verilog/Lab4Verilog.srcs/sources_1/new/IF_ID_Register.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IF_ID_Register
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/alexr/Documents/Projects/ECE-369/Lab4/Lab4Verilog/Lab4Verilog.srcs/sources_1/imports/1-InstructionFetchUnit/InstructionMemory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module InstructionMemory
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/alexr/Documents/Projects/ECE-369/Lab4/Lab4Verilog/Lab4Verilog.srcs/sources_1/new/MEM_WB_Register.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MEM_WB_Register
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/alexr/Documents/Projects/ECE-369/Lab4/Lab4Verilog/Lab4Verilog.srcs/sources_1/imports/DatapathComponents/Mux32Bit2To1/Mux32Bit2To1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mux32Bit2To1
+INFO: [VRFC 10-311] analyzing module Mux5Bit2To1
+INFO: [VRFC 10-311] analyzing module Mux32And5Bit2To1
+INFO: [VRFC 10-311] analyzing module Mux32Bit3To1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/alexr/Documents/Projects/ECE-369/Lab4/Lab4Verilog/Lab4Verilog.srcs/sources_1/imports/1-InstructionFetchUnit/PCAdder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PCAdder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/alexr/Documents/Projects/ECE-369/Lab4/Lab4Verilog/Lab4Verilog.srcs/sources_1/imports/1-InstructionFetchUnit/ProgramCounter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ProgramCounter
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/alexr/Documents/Projects/ECE-369/Lab4/Lab4Verilog/Lab4Verilog.srcs/sources_1/imports/DatapathComponents/RegisterFile/RegisterFile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RegisterFile
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/alexr/Documents/Projects/ECE-369/Lab4/Lab4Verilog/Lab4Verilog.srcs/sources_1/new/SL2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SL2_32bit
+INFO: [VRFC 10-311] analyzing module SL2_26to28bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/alexr/Documents/Projects/ECE-369/Lab4/Lab4Verilog/Lab4Verilog.srcs/sources_1/imports/DatapathComponents/SignExtension/SignExtension.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SignExtension
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/alexr/Documents/Projects/ECE-369/Lab4/Lab4Verilog/Lab4Verilog.srcs/sources_1/new/and.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module andgate
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/alexr/Documents/Projects/ECE-369/Lab4/Lab4Verilog/Lab4Verilog.srcs/sources_1/new/head.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module head
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/alexr/Documents/Projects/ECE-369/Lab4/Lab4Verilog/Lab4Verilog.srcs/sim_1/new/test1_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module test1_tb

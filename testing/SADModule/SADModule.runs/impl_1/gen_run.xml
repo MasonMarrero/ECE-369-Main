@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1701469314">
+  <File Type="OPT-HWDEF" Name="find_min_128.hwdef"/>
+  <File Type="ROUTE-BUS-SKEW" Name="find_min_128_bus_skew_routed.rpt"/>
+  <File Type="PA-DCP" Name="find_min_128.dcp"/>
+  <File Type="ROUTE-PWR" Name="find_min_128_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="find_min_128.tcl"/>
+  <File Type="BITSTR-MMI" Name="find_min_128.mmi"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="find_min_128_methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="find_min_128_timing_summary_init.rpt"/>
+  <File Type="ROUTE-PWR-SUM" Name="find_min_128_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="find_min_128_reports.tcl"/>
+  <File Type="OPT-TIMING" Name="find_min_128_timing_summary_opted.rpt"/>
+  <File Type="OPT-DCP" Name="find_min_128_opt.dcp"/>
+  <File Type="OPT-DRC" Name="find_min_128_drc_opted.rpt"/>
+  <File Type="PWROPT-DCP" Name="find_min_128_pwropt.dcp"/>
+  <File Type="PWROPT-DRC" Name="find_min_128_drc_pwropted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="find_min_128_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="find_min_128_placed.dcp"/>
+  <File Type="PLACE-IO" Name="find_min_128_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="find_min_128_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="find_min_128_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="find_min_128_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="find_min_128_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="find_min_128_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="find_min_128_incremental_reuse_pre_placed.rpt"/>
+  <File Type="BG-BIN" Name="find_min_128.bin"/>
+  <File Type="PLACE-TIMING" Name="find_min_128_timing_summary_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="find_min_128_postplace_pwropt.dcp"/>
+  <File Type="BITSTR-MSK" Name="find_min_128.msk"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="find_min_128_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="find_min_128_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="find_min_128_drc_physopted.rpt"/>
+  <File Type="BITSTR-RBT" Name="find_min_128.rbt"/>
+  <File Type="PHYSOPT-TIMING" Name="find_min_128_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="find_min_128_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="find_min_128_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="find_min_128_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="find_min_128_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="find_min_128_drc_routed.pb"/>
+  <File Type="ROUTE-DRC-RPX" Name="find_min_128_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="find_min_128_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="find_min_128_methodology_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="find_min_128_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="find_min_128_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="find_min_128_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="find_min_128_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="find_min_128_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="find_min_128_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="find_min_128_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="find_min_128_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="find_min_128_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="find_min_128_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="find_min_128_bus_skew_routed.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="find_min_128_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="find_min_128_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="find_min_128_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="find_min_128_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="find_min_128_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="find_min_128_bus_skew_postroute_physopted.rpt"/>
+  <File Type="BG-BIT" Name="find_min_128.bit"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="find_min_128_bus_skew_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="find_min_128_bus_skew_postroute_physopted.rpx"/>
+  <File Type="BITSTR-NKY" Name="find_min_128.nky"/>
+  <File Type="BITSTR-BMM" Name="find_min_128_bd.bmm"/>
+  <File Type="PDI-FILE" Name="find_min_128.pdi"/>
+  <File Type="RCFI_FILE" Name="find_min_128.rcfi"/>
+  <File Type="CFI_FILE" Name="find_min_128.cfi"/>
+  <File Type="RNPI_FILE" Name="find_min_128.rnpi"/>
+  <File Type="NPI_FILE" Name="find_min_128.npi"/>
+  <File Type="RBD_FILE" Name="find_min_128.rbd"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="find_min_128.ltx"/>
+  <File Type="BITSTR-SYSDEF" Name="find_min_128.sysdef"/>
+  <File Type="BG-BGN" Name="find_min_128.bgn"/>
+  <File Type="BG-DRC" Name="find_min_128.drc"/>
+  <File Type="RDI-RDI" Name="find_min_128.vdi"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <File Type="ROUTE-RQS" Name="find_min_128_routed.rqs"/>
+  <File Type="POSTROUTE-PHYSOPT-RQS" Name="find_min_128_postroute_physopted.rqs"/>
+  <File Type="ROUTE-RQS-RPT" Name="route_report_qor_suggestions_0.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-RQS-RPT" Name="postroute_physopt_report_qor_suggestions_0.rpt"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/find_min_128.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/sad.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/find_max.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/frames/frame_data.mem">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Competition/Resources/frames/frame_data.mem"/>
+        <Attr Name="ImportTime" Val="1701462057"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/frames/window_data.mem">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Competition/Resources/frames/window_data.mem"/>
+        <Attr Name="ImportTime" Val="1701462090"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="find_min_128"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <File Path="$PSRCDIR/utils_1/imports/synth_1/sad.dcp">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedInSteps" Val="synth_1"/>
+        <Attr Name="AutoDcp" Val="1"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2022"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>

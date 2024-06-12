@@ -1,0 +1,35 @@
+import random
+
+# Parameters
+DATA_WIDTH = 32  # Set this to your required data width
+NUM_ELEMENTS = 4  # Number of elements in the frame array
+
+# File name
+file_name = "frame_data.mem"
+
+def generate_data(width, num_elements):
+    """Generate random data for the frame array."""
+    max_value = 255
+    return [random.randint(0, max_value) for _ in range(num_elements)]
+
+def format_data_to_hex(data):
+    """Format the data into hexadecimal strings."""
+    hex_data = [f"{value:0{DATA_WIDTH//4}X}" for value in data]
+    return hex_data
+
+def write_to_file(file_name, data):
+    """Write the data to a file."""
+    with open(file_name, 'w') as file:
+        for line in data:
+            file.write(line + '\n')
+
+# Generate data
+frame_data = generate_data(DATA_WIDTH, NUM_ELEMENTS)
+
+# Format data as hexadecimal
+hex_data = format_data_to_hex(frame_data)
+
+# Write data to file
+write_to_file(file_name, hex_data)
+
+print(f"Memory file '{file_name}' has been created with {NUM_ELEMENTS} elements.")

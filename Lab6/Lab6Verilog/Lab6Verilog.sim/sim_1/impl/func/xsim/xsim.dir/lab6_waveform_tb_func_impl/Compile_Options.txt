@@ -1,0 +1,1 @@
+-wto "9ce4ec6091ce4ce0ae92405705093ac1" --incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "unisims_ver" -L "secureip" --snapshot "lab6_waveform_tb_func_impl" "xil_defaultlib.lab6_waveform_tb" "xil_defaultlib.glbl" -log "elaborate.log" 

@@ -1,0 +1,27 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"lab6_waveform_tb_time_impl.v" \
+"../../../../../Lab6Verilog.srcs/sources_1/imports/DatapathComponents/ALU32Bit/ALU32Bit.v" \
+"../../../../../Lab6Verilog.srcs/sources_1/new/Adder.v" \
+"../../../../../Lab6Verilog.srcs/sources_1/new/BranchALU.v" \
+"../../../../../Lab6Verilog.srcs/sources_1/new/ControlSignalMux.v" \
+"../../../../../Lab6Verilog.srcs/sources_1/new/Controller.v" \
+"../../../../../Lab6Verilog.srcs/sources_1/imports/DatapathComponents/DataMemory/DataMemory.v" \
+"../../../../../Lab6Verilog.srcs/sources_1/new/EX_MEM_Register.v" \
+"../../../../../Lab6Verilog.srcs/sources_1/new/HazardDetectorUnit.v" \
+"../../../../../Lab6Verilog.srcs/sources_1/new/ID_EX_Register.v" \
+"../../../../../Lab6Verilog.srcs/sources_1/new/IF_ID_Register.v" \
+"../../../../../Lab6Verilog.srcs/sources_1/imports/1-InstructionFetchUnit/InstructionMemory.v" \
+"../../../../../Lab6Verilog.srcs/sources_1/new/MEM_WB_Register.v" \
+"../../../../../Lab6Verilog.srcs/sources_1/imports/DatapathComponents/Mux32Bit2To1/Mux32Bit2To1.v" \
+"../../../../../Lab6Verilog.srcs/sources_1/imports/1-InstructionFetchUnit/PCAdder.v" \
+"../../../../../Lab6Verilog.srcs/sources_1/imports/1-InstructionFetchUnit/ProgramCounter.v" \
+"../../../../../Lab6Verilog.srcs/sources_1/imports/DatapathComponents/RegisterFile/RegisterFile.v" \
+"../../../../../Lab6Verilog.srcs/sources_1/new/SL2.v" \
+"../../../../../Lab6Verilog.srcs/sources_1/imports/DatapathComponents/SignExtension/SignExtension.v" \
+"../../../../../Lab6Verilog.srcs/sources_1/new/and.v" \
+"../../../../../Lab6Verilog.srcs/sources_1/new/head.v" \
+"../../../../../Lab6Verilog.srcs/sim_1/new/lab6_waveform_tb.v" \
+
+# Do not sort compile order
+nosort

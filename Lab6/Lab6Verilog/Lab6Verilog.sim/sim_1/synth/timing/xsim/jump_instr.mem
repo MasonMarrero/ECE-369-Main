@@ -1,0 +1,20 @@
+08000005	//		j	label1 ->		j	label1
+00000000	//		nop ->		nop
+00000000	//		nop ->		nop
+00000000	//		nop ->		nop
+00000000	//		nop ->		nop
+00000000	//	label1:	nop ->	label1:	nop
+00000000	//		nop ->		nop
+0c000013	//		jal	label8 ->		jal	label8
+00000000	//		nop ->		nop
+00000000	//		nop ->		nop
+00000000	//		nop ->		nop
+00000000	//		nop ->		nop
+00000000	//		nop ->		nop
+00000000	//	label2:	nop ->	label2:	nop
+00000000	//	label3:	nop ->	label3:	nop
+00000000	//	label4:	nop ->	label4:	nop
+00000000	//	label5:	nop ->	label5:	nop
+00000000	//	label6:	nop ->	label6:	nop
+00000000	//	label7:	nop ->	label7:	nop
+00000000	//	label8:	nop ->	label8:	nop

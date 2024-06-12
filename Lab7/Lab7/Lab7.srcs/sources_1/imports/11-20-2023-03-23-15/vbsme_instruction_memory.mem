@@ -1,0 +1,130 @@
+23bdfffc	//	main:			addi	$sp, $sp, -4 ->	main:			addi	$sp, $sp, -4
+afbf0000	//				sw	$ra, 0($sp) ->				sw	$ra, 0($sp)
+00002025	//				or	$a0, $zero, $zero ->				or	$a0, $zero, $zero
+34050010	//				ori	$a1, $zero, 16 ->				ori	$a1, $zero, 16
+3406040c	//				ori	$a2, $zero, 1036 ->				ori	$a2, $zero, 1036
+0c000008	//				jal	vbsme ->				jal	vbsme
+08000007	//				j	end_program ->				j	end_program
+08000007	//	end_program:		j	end_program ->	end_program:		j	end_program
+34020000	//	vbsme:			ori	$v0, $zero, 0 ->	vbsme:			ori	$v0, $zero, 0
+34030000	//				ori	$v1, $zero, 0 ->				ori	$v1, $zero, 0
+00008025	//				or	$s0, $zero, $zero ->				or	$s0, $zero, $zero
+00008825	//				or	$s1, $zero, $zero ->				or	$s1, $zero, $zero
+00009025	//				or	$s2, $zero, $zero ->				or	$s2, $zero, $zero
+8c950008	//				lw	$s5, 8($a0) ->				lw	$s5, 8($a0)
+8c96000c	//				lw	$s6, 12($a0) ->				lw	$s6, 12($a0)
+8c930000	//				lw	$s3, 0($a0) ->				lw	$s3, 0($a0)
+8c940004	//				lw	$s4, 4($a0) ->				lw	$s4, 4($a0)
+34177fff	//				ori	$s7, $zero, 32767 ->				ori	$s7, $zero, 32767
+23bdfffc	//				addi	$sp, $sp, -4 ->				addi	$sp, $sp, -4
+afbf0000	//				sw	$ra, 0($sp) ->				sw	$ra, 0($sp)
+0c000018	//				jal	main_loop ->				jal	main_loop
+8fbf0000	//				lw	$ra, 0($sp) ->				lw	$ra, 0($sp)
+23bd0004	//				addi	$sp, $sp, 4 ->				addi	$sp, $sp, 4
+03e00008	//				jr	$ra ->				jr	$ra
+02754022	//	main_loop:		sub	$t0, $s3, $s5 ->	main_loop:		sub	$t0, $s3, $s5
+16080008	//				bne	$s0, $t0, continue ->				bne	$s0, $t0, continue
+02964822	//				sub	$t1, $s4, $s6 ->				sub	$t1, $s4, $s6
+16290006	//				bne	$s1, $t1, continue ->				bne	$s1, $t1, continue
+23bdfffc	//				addi	$sp, $sp, -4 ->				addi	$sp, $sp, -4
+afbf0000	//				sw	$ra, 0($sp) ->				sw	$ra, 0($sp)
+0c00002d	//				jal	calculate_SAD ->				jal	calculate_SAD
+8fbf0000	//				lw	$ra, 0($sp) ->				lw	$ra, 0($sp)
+23bd0004	//				addi	$sp, $sp, 4 ->				addi	$sp, $sp, 4
+03e00008	//				jr	$ra ->				jr	$ra
+23bdfffc	//	continue:		addi	$sp, $sp, -4 ->	continue:		addi	$sp, $sp, -4
+afbf0000	//				sw	$ra, 0($sp) ->				sw	$ra, 0($sp)
+0c00002d	//				jal	calculate_SAD ->				jal	calculate_SAD
+8fbf0000	//				lw	$ra, 0($sp) ->				lw	$ra, 0($sp)
+23bd0004	//				addi	$sp, $sp, 4 ->				addi	$sp, $sp, 4
+23bdfffc	//				addi	$sp, $sp, -4 ->				addi	$sp, $sp, -4
+afbf0000	//				sw	$ra, 0($sp) ->				sw	$ra, 0($sp)
+0c000058	//				jal	get_new_index ->				jal	get_new_index
+8fbf0000	//				lw	$ra, 0($sp) ->				lw	$ra, 0($sp)
+23bd0004	//				addi	$sp, $sp, 4 ->				addi	$sp, $sp, 4
+08000018	//				j	main_loop ->				j	main_loop
+00004025	//	calculate_SAD:		or	$t0, $zero, $zero ->	calculate_SAD:		or	$t0, $zero, $zero
+00005825	//				or	$t3, $zero, $zero ->				or	$t3, $zero, $zero
+00006825	//				or	$t5, $zero, $zero ->				or	$t5, $zero, $zero
+00007025	//				or	$t6, $zero, $zero ->				or	$t6, $zero, $zero
+00007825	//				or	$t7, $zero, $zero ->				or	$t7, $zero, $zero
+0000c025	//				or	$t8, $zero, $zero ->				or	$t8, $zero, $zero
+0000c825	//				or	$t9, $zero, $zero ->				or	$t9, $zero, $zero
+72146802	//				mul	$t5, $s0, $s4 ->				mul	$t5, $s0, $s4
+11750018	//	row_loop:		beq	$t3, $s5, row_loop_exit ->	row_loop:		beq	$t3, $s5, row_loop_exit
+340c0000	//				ori	$t4, $zero, 0 ->				ori	$t4, $zero, 0
+71747002	//				mul	$t6, $t3, $s4 ->				mul	$t6, $t3, $s4
+11960013	//	col_loop:		beq	$t4, $s6, col_loop_exit ->	col_loop:		beq	$t4, $s6, col_loop_exit
+01ae7820	//				add	$t7, $t5, $t6 ->				add	$t7, $t5, $t6
+01f17820	//				add	$t7, $t7, $s1 ->				add	$t7, $t7, $s1
+01ec7820	//				add	$t7, $t7, $t4 ->				add	$t7, $t7, $t4
+000f7880	//				sll	$t7, $t7, 2 ->				sll	$t7, $t7, 2
+01e57820	//				add	$t7, $t7, $a1 ->				add	$t7, $t7, $a1
+8dea0000	//				lw	$t2, 0($t7) ->				lw	$t2, 0($t7)
+0008c880	//				sll	$t9, $t0, 2 ->				sll	$t9, $t0, 2
+0326c820	//				add	$t9, $t9, $a2 ->				add	$t9, $t9, $a2
+8f290000	//				lw	$t1, 0($t9) ->				lw	$t1, 0($t9)
+012ac822	//				sub	$t9, $t1, $t2 ->				sub	$t9, $t1, $t2
+23bdfffc	//				addi	$sp, $sp, -4 ->				addi	$sp, $sp, -4
+afbf0000	//				sw	$ra, 0($sp) ->				sw	$ra, 0($sp)
+0c000054	//				jal	calc_abs ->				jal	calc_abs
+8fbf0000	//				lw	$ra, 0($sp) ->				lw	$ra, 0($sp)
+23bd0004	//				addi	$sp, $sp, 4 ->				addi	$sp, $sp, 4
+0319c020	//				add	$t8, $t8, $t9 ->				add	$t8, $t8, $t9
+21080001	//				addi	$t0, $t0, 1 ->				addi	$t0, $t0, 1
+218c0001	//				addi	$t4, $t4, 1 ->				addi	$t4, $t4, 1
+08000038	//				j	col_loop ->				j	col_loop
+216b0001	//	col_loop_exit:		addi	$t3, $t3, 1 ->	col_loop_exit:		addi	$t3, $t3, 1
+08000035	//				j	row_loop ->				j	row_loop
+02f8c82a	//	row_loop_exit:		slt	$t9, $s7, $t8 ->	row_loop_exit:		slt	$t9, $s7, $t8
+1f200003	//				bgtz	$t9, SAD_exit ->				bgtz	$t9, SAD_exit
+0300b820	//				add	$s7, $t8, $zero ->				add	$s7, $t8, $zero
+02001020	//				add	$v0, $s0, $zero ->				add	$v0, $s0, $zero
+02201820	//				add	$v1, $s1, $zero ->				add	$v1, $s1, $zero
+03e00008	//	SAD_exit:		jr	$ra ->	SAD_exit:		jr	$ra
+07210002	//	calc_abs:		bgez	$t9, abs_exit ->	calc_abs:		bgez	$t9, abs_exit
+0019c822	//				sub	$t9, $zero, $t9 ->				sub	$t9, $zero, $t9
+08000057	//				j	abs_exit ->				j	abs_exit
+03e00008	//	abs_exit:		jr	$ra ->	abs_exit:		jr	$ra
+00004025	//	get_new_index:		or	$t0, $zero, $zero ->	get_new_index:		or	$t0, $zero, $zero
+00004825	//				or	$t1, $zero, $zero ->				or	$t1, $zero, $zero
+1240000c	//				beq	$s2, $zero, incrementing_column ->				beq	$s2, $zero, incrementing_column
+02754022	//				sub	$t0, $s3, $s5 ->				sub	$t0, $s3, $s5
+21080001	//				addi	$t0, $t0, 1 ->				addi	$t0, $t0, 1
+02004820	//				add	$t1, $s0, $zero ->				add	$t1, $s0, $zero
+02205020	//				add	$t2, $s1, $zero ->				add	$t2, $s1, $zero
+23bdfffc	//				addi	$sp, $sp, -4 ->				addi	$sp, $sp, -4
+afbf0000	//				sw	$ra, 0($sp) ->				sw	$ra, 0($sp)
+0c000073	//				jal	inc ->				jal	inc
+8fbf0000	//				lw	$ra, 0($sp) ->				lw	$ra, 0($sp)
+23bd0004	//				addi	$sp, $sp, 4 ->				addi	$sp, $sp, 4
+01208020	//				add	$s0, $t1, $zero ->				add	$s0, $t1, $zero
+01408820	//				add	$s1, $t2, $zero ->				add	$s1, $t2, $zero
+03e00008	//				jr	$ra ->				jr	$ra
+02964022	//	incrementing_column:	sub	$t0, $s4, $s6 ->	incrementing_column:	sub	$t0, $s4, $s6
+21080001	//				addi	$t0, $t0, 1 ->				addi	$t0, $t0, 1
+02204820	//				add	$t1, $s1, $zero ->				add	$t1, $s1, $zero
+02005020	//				add	$t2, $s0, $zero ->				add	$t2, $s0, $zero
+23bdfffc	//				addi	$sp, $sp, -4 ->				addi	$sp, $sp, -4
+afbf0000	//				sw	$ra, 0($sp) ->				sw	$ra, 0($sp)
+0c000073	//				jal	inc ->				jal	inc
+8fbf0000	//				lw	$ra, 0($sp) ->				lw	$ra, 0($sp)
+23bd0004	//				addi	$sp, $sp, 4 ->				addi	$sp, $sp, 4
+01408020	//				add	$s0, $t2, $zero ->				add	$s0, $t2, $zero
+01208820	//				add	$s1, $t1, $zero ->				add	$s1, $t1, $zero
+03e00008	//				jr	$ra ->				jr	$ra
+21290001	//	inc:			addi	$t1, $t1, 1 ->	inc:			addi	$t1, $t1, 1
+11280008	//				beq	$t1, $t0, equal_block ->				beq	$t1, $t0, equal_block
+214affff	//				addi	$t2, $t2, -1 ->				addi	$t2, $t2, -1
+0140582a	//				slt	$t3, $t2, $zero ->				slt	$t3, $t2, $zero
+15600001	//				bne	$t3, $zero, less_than_zero ->				bne	$t3, $zero, less_than_zero
+03e00008	//				jr	$ra ->				jr	$ra
+214a0001	//	less_than_zero:		addi	$t2, $t2, 1 ->	less_than_zero:		addi	$t2, $t2, 1
+34190001	//				ori	$t9, $zero, 1 ->				ori	$t9, $zero, 1
+02599026	//				xor	$s2, $s2, $t9 ->				xor	$s2, $s2, $t9
+03e00008	//				jr	$ra ->				jr	$ra
+2129ffff	//	equal_block:		addi	$t1, $t1, -1 ->	equal_block:		addi	$t1, $t1, -1
+214a0001	//				addi	$t2, $t2, 1 ->				addi	$t2, $t2, 1
+34190001	//				ori	$t9, $zero, 1 ->				ori	$t9, $zero, 1
+02599026	//				xor	$s2, $s2, $t9 ->				xor	$s2, $s2, $t9
+03e00008	//				jr	$ra ->				jr	$ra
