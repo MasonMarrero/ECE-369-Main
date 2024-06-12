@@ -1,0 +1,7 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"sadmodule_tb_func_synth.v" \
+"../../../../../windowmod.srcs/sim_1/new/sad_tb.v" \
+
+# Do not sort compile order
+nosort

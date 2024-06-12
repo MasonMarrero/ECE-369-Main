@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="main_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="main_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="331.076 ns"></ZoomStartTime>
+      <ZoomEndTime time="490.877 ns"></ZoomEndTime>
+      <Cursor1Time time="1,850.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="171"></NameColumnWidth>
+      <ValueColumnWidth column_width="72"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="13" />
+   <wvobject fp_name="/main_tb/out7" type="array">
+      <obj_property name="ElementShortName">out7[6:0]</obj_property>
+      <obj_property name="ObjectShortName">out7[6:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/en_out" type="array">
+      <obj_property name="ElementShortName">en_out[7:0]</obj_property>
+      <obj_property name="ObjectShortName">en_out[7:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/uut/row_w" type="array">
+      <obj_property name="ElementShortName">row_w[7:0]</obj_property>
+      <obj_property name="ObjectShortName">row_w[7:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/uut/col_w" type="array">
+      <obj_property name="ElementShortName">col_w[7:0]</obj_property>
+      <obj_property name="ObjectShortName">col_w[7:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/uut/tfdd/NumberA" type="array">
+      <obj_property name="ElementShortName">NumberA[15:0]</obj_property>
+      <obj_property name="ObjectShortName">NumberA[15:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/uut/tfdd/NumberB" type="array">
+      <obj_property name="ElementShortName">NumberB[15:0]</obj_property>
+      <obj_property name="ObjectShortName">NumberB[15:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/uut/comp/SORTER_MODULE/row_out" type="array">
+      <obj_property name="ElementShortName">row_out[7:0]</obj_property>
+      <obj_property name="ObjectShortName">row_out[7:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/uut/comp/SORTER_MODULE/col_out" type="array">
+      <obj_property name="ElementShortName">col_out[7:0]</obj_property>
+      <obj_property name="ObjectShortName">col_out[7:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/uut/comp/SORTER_MODULE/sad_out" type="array">
+      <obj_property name="ElementShortName">sad_out[15:0]</obj_property>
+      <obj_property name="ObjectShortName">sad_out[15:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/uut/comp/DATAMEMORY/sum" type="array">
+      <obj_property name="ElementShortName">sum[16:0]</obj_property>
+      <obj_property name="ObjectShortName">sum[16:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/uut/comp/DATAMEMORY/sum_in" type="array">
+      <obj_property name="ElementShortName">sum_in[15:0]</obj_property>
+      <obj_property name="ObjectShortName">sum_in[15:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/uut/comp/DATAMEMORY/col_in" type="array">
+      <obj_property name="ElementShortName">col_in[7:0]</obj_property>
+      <obj_property name="ObjectShortName">col_in[7:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/uut/comp/DATAMEMORY/row_in" type="array">
+      <obj_property name="ElementShortName">row_in[7:0]</obj_property>
+      <obj_property name="ObjectShortName">row_in[7:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+</wave_config>

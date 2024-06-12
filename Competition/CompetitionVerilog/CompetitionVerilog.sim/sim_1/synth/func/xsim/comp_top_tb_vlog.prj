@@ -1,0 +1,16 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"comp_top_tb_func_synth.v" \
+"../../../../../CompetitionVerilog.srcs/sources_1/new/IDEX.v" \
+"../../../../../CompetitionVerilog.srcs/sources_1/new/IFID.v" \
+"../../../../../CompetitionVerilog.srcs/sources_1/new/add1.v" \
+"../../../../../CompetitionVerilog.srcs/sources_1/new/comp_top.v" \
+"../../../../../CompetitionVerilog.srcs/sources_1/new/datamemory_with_sorter.v" \
+"../../../../../CompetitionVerilog.srcs/sources_1/imports/new/find_min_128.v" \
+"../../../../../CompetitionVerilog.srcs/sources_1/new/mux.v" \
+"../../../../../CompetitionVerilog.srcs/sources_1/new/row_counter.v" \
+"../../../../../CompetitionVerilog.srcs/sources_1/new/sadmodule.v" \
+"../../../../../CompetitionVerilog.srcs/sim_1/imports/new/comp_top_tb.v" \
+
+# Do not sort compile order
+nosort

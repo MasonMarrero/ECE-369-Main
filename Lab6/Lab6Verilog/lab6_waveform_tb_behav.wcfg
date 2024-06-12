@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="lab6_waveform_tb_func_impl.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="lab6_waveform_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="402001fs"></ZoomEndTime>
+      <Cursor1Time time="402000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="202"></NameColumnWidth>
+      <ValueColumnWidth column_width="72"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="12" />
+   <wvobject fp_name="/lab6_waveform_tb/Clk" type="logic">
+      <obj_property name="ElementShortName">Clk</obj_property>
+      <obj_property name="ObjectShortName">Clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lab6_waveform_tb/PC" type="array">
+      <obj_property name="ElementShortName">PC[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PC[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lab6_waveform_tb/wb" type="array">
+      <obj_property name="ElementShortName">wb[31:0]</obj_property>
+      <obj_property name="ObjectShortName">wb[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="group545" type="group">
+      <obj_property name="label">InstrMemory</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/lab6_waveform_tb/uut/Instr_Memory/Address" type="array">
+         <obj_property name="ElementShortName">Address[31:0]</obj_property>
+         <obj_property name="ObjectShortName">Address[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/lab6_waveform_tb/uut/Instr_Memory/Instruction" type="array">
+         <obj_property name="ElementShortName">Instruction[31:0]</obj_property>
+         <obj_property name="ObjectShortName">Instruction[31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/lab6_waveform_tb/uut/IF_ID_Instruction" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">IF_ID_Instruction[31:0]</obj_property>
+      <obj_property name="ObjectShortName">IF_ID_Instruction[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="label">DecodeInstr</obj_property>
+   </wvobject>
+   <wvobject fp_name="group84" type="group">
+      <obj_property name="label">Controller</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/lab6_waveform_tb/uut/Control/OPCode" type="array">
+         <obj_property name="ElementShortName">OPCode[31:26]</obj_property>
+         <obj_property name="ObjectShortName">OPCode[31:26]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/lab6_waveform_tb/uut/Control/Funct" type="array">
+         <obj_property name="ElementShortName">Funct[5:0]</obj_property>
+         <obj_property name="ObjectShortName">Funct[5:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/lab6_waveform_tb/uut/Control/RT" type="array">
+         <obj_property name="ElementShortName">RT[20:16]</obj_property>
+         <obj_property name="ObjectShortName">RT[20:16]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/lab6_waveform_tb/uut/Control/RegWrite" type="logic">
+         <obj_property name="ElementShortName">RegWrite</obj_property>
+         <obj_property name="ObjectShortName">RegWrite</obj_property>
+      </wvobject>
+      <wvobject fp_name="/lab6_waveform_tb/uut/Control/Branch" type="logic">
+         <obj_property name="ElementShortName">Branch</obj_property>
+         <obj_property name="ObjectShortName">Branch</obj_property>
+      </wvobject>
+      <wvobject fp_name="/lab6_waveform_tb/uut/Control/ALUOp" type="array">
+         <obj_property name="ElementShortName">ALUOp[3:0]</obj_property>
+         <obj_property name="ObjectShortName">ALUOp[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/lab6_waveform_tb/uut/Control/RegDst" type="logic">
+         <obj_property name="ElementShortName">RegDst</obj_property>
+         <obj_property name="ObjectShortName">RegDst</obj_property>
+      </wvobject>
+      <wvobject fp_name="/lab6_waveform_tb/uut/Control/ALUSrc" type="logic">
+         <obj_property name="ElementShortName">ALUSrc</obj_property>
+         <obj_property name="ObjectShortName">ALUSrc</obj_property>
+      </wvobject>
+      <wvobject fp_name="/lab6_waveform_tb/uut/Control/MemWrite" type="logic">
+         <obj_property name="ElementShortName">MemWrite</obj_property>
+         <obj_property name="ObjectShortName">MemWrite</obj_property>
+      </wvobject>
+      <wvobject fp_name="/lab6_waveform_tb/uut/Control/MemRead" type="logic">
+         <obj_property name="ElementShortName">MemRead</obj_property>
+         <obj_property name="ObjectShortName">MemRead</obj_property>
+      </wvobject>
+      <wvobject fp_name="/lab6_waveform_tb/uut/Control/MemToReg" type="logic">
+         <obj_property name="ElementShortName">MemToReg</obj_property>
+         <obj_property name="ObjectShortName">MemToReg</obj_property>
+      </wvobject>
+      <wvobject fp_name="/lab6_waveform_tb/uut/Control/Jump" type="array">
+         <obj_property name="ElementShortName">Jump[1:0]</obj_property>
+         <obj_property name="ObjectShortName">Jump[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/lab6_waveform_tb/uut/Control/Jal" type="logic">
+         <obj_property name="ElementShortName">Jal</obj_property>
+         <obj_property name="ObjectShortName">Jal</obj_property>
+      </wvobject>
+      <wvobject fp_name="/lab6_waveform_tb/uut/Control/SAReg" type="logic">
+         <obj_property name="ElementShortName">SAReg</obj_property>
+         <obj_property name="ObjectShortName">SAReg</obj_property>
+      </wvobject>
+      <wvobject fp_name="/lab6_waveform_tb/uut/Control/MemWHB" type="array">
+         <obj_property name="ElementShortName">MemWHB[1:0]</obj_property>
+         <obj_property name="ObjectShortName">MemWHB[1:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group94" type="group">
+      <obj_property name="label">HazardUnit</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/lab6_waveform_tb/uut/HazardDetectorUnit/RT" type="array">
+         <obj_property name="ElementShortName">RT[20:16]</obj_property>
+         <obj_property name="ObjectShortName">RT[20:16]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/lab6_waveform_tb/uut/HazardDetectorUnit/RS" type="array">
+         <obj_property name="ElementShortName">RS[25:21]</obj_property>
+         <obj_property name="ObjectShortName">RS[25:21]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/lab6_waveform_tb/uut/HazardDetectorUnit/BranchTaken" type="logic">
+         <obj_property name="ElementShortName">BranchTaken</obj_property>
+         <obj_property name="ObjectShortName">BranchTaken</obj_property>
+      </wvobject>
+      <wvobject fp_name="/lab6_waveform_tb/uut/HazardDetectorUnit/EX_RegDest" type="array">
+         <obj_property name="ElementShortName">EX_RegDest[4:0]</obj_property>
+         <obj_property name="ObjectShortName">EX_RegDest[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/lab6_waveform_tb/uut/HazardDetectorUnit/MEM_RegDest" type="array">
+         <obj_property name="ElementShortName">MEM_RegDest[4:0]</obj_property>
+         <obj_property name="ObjectShortName">MEM_RegDest[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/lab6_waveform_tb/uut/HazardDetectorUnit/GivePCPrevInstr" type="logic">
+         <obj_property name="ElementShortName">GivePCPrevInstr</obj_property>
+         <obj_property name="ObjectShortName">GivePCPrevInstr</obj_property>
+      </wvobject>
+      <wvobject fp_name="/lab6_waveform_tb/uut/HazardDetectorUnit/IFIDRegWrite" type="logic">
+         <obj_property name="ElementShortName">IFIDRegWrite</obj_property>
+         <obj_property name="ObjectShortName">IFIDRegWrite</obj_property>
+      </wvobject>
+      <wvobject fp_name="/lab6_waveform_tb/uut/HazardDetectorUnit/ProtectMEMandGPR" type="logic">
+         <obj_property name="ElementShortName">ProtectMEMandGPR</obj_property>
+         <obj_property name="ObjectShortName">ProtectMEMandGPR</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group99" type="group">
+      <obj_property name="label">PC Inputs</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/lab6_waveform_tb/uut/BranchToJump" type="array">
+         <obj_property name="ElementShortName">BranchToJump[31:0]</obj_property>
+         <obj_property name="ObjectShortName">BranchToJump[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/lab6_waveform_tb/uut/BranchOrJumpOrInc" type="array">
+         <obj_property name="ElementShortName">BranchOrJumpOrInc[31:0]</obj_property>
+         <obj_property name="ObjectShortName">BranchOrJumpOrInc[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/lab6_waveform_tb/uut/PCSrc" type="array">
+         <obj_property name="ElementShortName">PCSrc[31:0]</obj_property>
+         <obj_property name="ObjectShortName">PCSrc[31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group168" type="group">
+      <obj_property name="label">IFID</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/lab6_waveform_tb/uut/IF_ID_Reg/Instruction_in" type="array">
+         <obj_property name="ElementShortName">Instruction_in[31:0]</obj_property>
+         <obj_property name="ObjectShortName">Instruction_in[31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/lab6_waveform_tb/uut/IF_ID_Reg/Instruction_out" type="array">
+         <obj_property name="ElementShortName">Instruction_out[31:0]</obj_property>
+         <obj_property name="ObjectShortName">Instruction_out[31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/lab6_waveform_tb/uut/IF_ID_Reg/PC_in" type="array">
+         <obj_property name="ElementShortName">PC_in[31:0]</obj_property>
+         <obj_property name="ObjectShortName">PC_in[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/lab6_waveform_tb/uut/IF_ID_Reg/PC_out" type="array">
+         <obj_property name="ElementShortName">PC_out[31:0]</obj_property>
+         <obj_property name="ObjectShortName">PC_out[31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group234" type="group">
+      <obj_property name="label">ALU</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/lab6_waveform_tb/uut/ALU/B" type="array">
+         <obj_property name="ElementShortName">B[31:0]</obj_property>
+         <obj_property name="ObjectShortName">B[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/lab6_waveform_tb/uut/ALU/ALUResult" type="array">
+         <obj_property name="ElementShortName">ALUResult[31:0]</obj_property>
+         <obj_property name="ObjectShortName">ALUResult[31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/lab6_waveform_tb/uut/ALU/ALUControl" type="array">
+         <obj_property name="ElementShortName">ALUControl[3:0]</obj_property>
+         <obj_property name="ObjectShortName">ALUControl[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/lab6_waveform_tb/uut/ALU/A" type="array">
+         <obj_property name="ElementShortName">A[31:0]</obj_property>
+         <obj_property name="ObjectShortName">A[31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group281" type="group">
+      <obj_property name="label">GPR</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/lab6_waveform_tb/uut/GPR/registers" type="array">
+         <obj_property name="ElementShortName">registers[31:0][31:0]</obj_property>
+         <obj_property name="ObjectShortName">registers[31:0][31:0]</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+      </wvobject>
+      <wvobject fp_name="/lab6_waveform_tb/uut/GPR/WriteRegister" type="array">
+         <obj_property name="ElementShortName">WriteRegister[4:0]</obj_property>
+         <obj_property name="ObjectShortName">WriteRegister[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/lab6_waveform_tb/uut/GPR/WriteData" type="array">
+         <obj_property name="ElementShortName">WriteData[31:0]</obj_property>
+         <obj_property name="ObjectShortName">WriteData[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/lab6_waveform_tb/uut/GPR/ReadRegister2" type="array">
+         <obj_property name="ElementShortName">ReadRegister2[4:0]</obj_property>
+         <obj_property name="ObjectShortName">ReadRegister2[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/lab6_waveform_tb/uut/GPR/ReadRegister1" type="array">
+         <obj_property name="ElementShortName">ReadRegister1[4:0]</obj_property>
+         <obj_property name="ObjectShortName">ReadRegister1[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/lab6_waveform_tb/uut/GPR/ReadData2" type="array">
+         <obj_property name="ElementShortName">ReadData2[31:0]</obj_property>
+         <obj_property name="ObjectShortName">ReadData2[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/lab6_waveform_tb/uut/GPR/ReadData1" type="array">
+         <obj_property name="ElementShortName">ReadData1[31:0]</obj_property>
+         <obj_property name="ObjectShortName">ReadData1[31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group554" type="group">
+      <obj_property name="label">Data Memory</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/lab6_waveform_tb/uut/DataMem/MemRead" type="logic">
+         <obj_property name="ElementShortName">MemRead</obj_property>
+         <obj_property name="ObjectShortName">MemRead</obj_property>
+      </wvobject>
+      <wvobject fp_name="/lab6_waveform_tb/uut/DataMem/MemWrite" type="logic">
+         <obj_property name="ElementShortName">MemWrite</obj_property>
+         <obj_property name="ObjectShortName">MemWrite</obj_property>
+      </wvobject>
+      <wvobject fp_name="/lab6_waveform_tb/uut/DataMem/MemWHB" type="array">
+         <obj_property name="ElementShortName">MemWHB[1:0]</obj_property>
+         <obj_property name="ObjectShortName">MemWHB[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/lab6_waveform_tb/uut/DataMem/Address" type="array">
+         <obj_property name="ElementShortName">Address[31:0]</obj_property>
+         <obj_property name="ObjectShortName">Address[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/lab6_waveform_tb/uut/DataMem/ReadData" type="array">
+         <obj_property name="ElementShortName">ReadData[31:0]</obj_property>
+         <obj_property name="ObjectShortName">ReadData[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/lab6_waveform_tb/uut/DataMem/WriteData" type="array">
+         <obj_property name="ElementShortName">WriteData[31:0]</obj_property>
+         <obj_property name="ObjectShortName">WriteData[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/lab6_waveform_tb/uut/DataMem/memory[0]" type="array">
+         <obj_property name="ElementShortName">[0][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[0][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/lab6_waveform_tb/uut/DataMem/memory[1]" type="array">
+         <obj_property name="ElementShortName">[1][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[1][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/lab6_waveform_tb/uut/DataMem/memory[2]" type="array">
+         <obj_property name="ElementShortName">[2][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[2][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/lab6_waveform_tb/uut/DataMem/memory[3]" type="array">
+         <obj_property name="ElementShortName">[3][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[3][31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>

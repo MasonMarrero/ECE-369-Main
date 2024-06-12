@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1698623853">
+  <File Type="ROUTE-PWR" Name="head_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="head.tcl"/>
+  <File Type="ROUTE-PWR-SUM" Name="head_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="head_reports.tcl"/>
+  <File Type="BITSTR-MSK" Name="head.msk"/>
+  <File Type="ROUTE-CLK" Name="head_clock_utilization_routed.rpt"/>
+  <File Type="RDI-RDI" Name="head.vdi"/>
+  <File Type="BG-BIT" Name="head.bit"/>
+  <File Type="BG-DRC" Name="head.drc"/>
+  <File Type="BG-BGN" Name="head.bgn"/>
+  <File Type="BG-BIN" Name="head.bin"/>
+  <File Type="BITSTR-RBT" Name="head.rbt"/>
+  <File Type="BITSTR-NKY" Name="head.nky"/>
+  <File Type="BITSTR-BMM" Name="head_bd.bmm"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="head_methodology_drc_routed.rpt"/>
+  <File Type="BITSTR-MMI" Name="head.mmi"/>
+  <File Type="BITSTR-SYSDEF" Name="head.sysdef"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="head.ltx"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <File Type="OPT-DRC" Name="head_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="head.hwdef"/>
+  <File Type="PLACE-IO" Name="head_io_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="head_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="head_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="head_control_sets_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="head_incremental_reuse_pre_placed.rpt"/>
+  <File Type="ROUTE-DRC" Name="head_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="head_drc_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="head_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="head_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="head_route_status.pb"/>
+  <File Type="ROUTE-DCP" Name="head_routed.dcp"/>
+  <File Type="ROUTE-ERROR-DCP" Name="head_routed_error.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="head_routed_bb.dcp"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="head_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="head_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="head_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-BUS-SKEW" Name="head_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="head_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="head_bus_skew_routed.rpx"/>
+  <File Type="OPT-DCP" Name="head_opt.dcp"/>
+  <File Type="PLACE-DCP" Name="head_placed.dcp"/>
+  <File Type="PWROPT-DCP" Name="head_pwropt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="head_postplace_pwropt.dcp"/>
+  <File Type="PHYSOPT-DCP" Name="head_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="head_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="head_postroute_physopt_bb.dcp"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="head_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-DRC-RPX" Name="head_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="head_methodology_drc_routed.rpx"/>
+  <File Type="PDI-FILE" Name="head.pdi"/>
+  <File Type="RCFI_FILE" Name="head.rcfi"/>
+  <File Type="CFI_FILE" Name="head.cfi"/>
+  <File Type="RNPI_FILE" Name="head.rnpi"/>
+  <File Type="NPI_FILE" Name="head.npi"/>
+  <File Type="RBD_FILE" Name="head.rbd"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/imports/DatapathComponents/ALU32Bit/ALU32Bit.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../Fall 2023/ECE 369/ECE 369 Labs/Lab_3/DatapathComponents/DatapathComponents/ALU32Bit/ALU32Bit.v"/>
+        <Attr Name="ImportTime" Val="1696280292"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Adder.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Controller.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/DatapathComponents/DataMemory/DataMemory.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../Fall 2023/ECE 369/ECE 369 Labs/Lab_3/DatapathComponents/DatapathComponents/DataMemory/DataMemory.v"/>
+        <Attr Name="ImportTime" Val="1696280293"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/EX_MEM_Register.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/ID_EX_Register.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/IF_ID_Register.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/1-InstructionFetchUnit/InstructionMemory.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../Fall 2023/ECE 369/ECE 369 Labs/Lab 1/lab1_final/lab1_final.srcs/sources_1/imports/Resources/1-InstructionFetchUnit/InstructionMemory.v"/>
+        <Attr Name="ImportTime" Val="1694019998"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/MEM_WB_Register.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/DatapathComponents/Mux32Bit2To1/Mux32Bit2To1.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../Fall 2023/ECE 369/ECE 369 Labs/Lab_3/DatapathComponents/DatapathComponents/Mux32Bit2To1/Mux32Bit2To1.v"/>
+        <Attr Name="ImportTime" Val="1696280294"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/1-InstructionFetchUnit/PCAdder.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../Fall 2023/ECE 369/ECE 369 Labs/Lab 1/lab1_final/lab1_final.srcs/sources_1/imports/Resources/1-InstructionFetchUnit/PCAdder.v"/>
+        <Attr Name="ImportTime" Val="1694019876"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/1-InstructionFetchUnit/ProgramCounter.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../Fall 2023/ECE 369/ECE 369 Labs/Lab 1/lab1_final/lab1_final.srcs/sources_1/imports/Resources/1-InstructionFetchUnit/ProgramCounter.v"/>
+        <Attr Name="ImportTime" Val="1694019874"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/DatapathComponents/RegisterFile/RegisterFile.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../Fall 2023/ECE 369/ECE 369 Labs/Lab_3/DatapathComponents/DatapathComponents/RegisterFile/RegisterFile.v"/>
+        <Attr Name="ImportTime" Val="1696280294"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/SL2.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/DatapathComponents/SignExtension/SignExtension.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../Fall 2023/ECE 369/ECE 369 Labs/Lab_3/DatapathComponents/DatapathComponents/SignExtension/SignExtension.v"/>
+        <Attr Name="ImportTime" Val="1696280295"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/and.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/head.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/r-type/rtype_instruct.mem">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/memories/r-type/rtype_instruct.mem"/>
+        <Attr Name="ImportTime" Val="1697774481"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/jump_data.mem">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/jump_instr.mem">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/lwsw_data.mem">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/lwsw_instr.mem">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/branch_instr.mem">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="head"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2020"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+    <Step Id="write_device_image"/>
+  </Strategy>
+</GenRun>

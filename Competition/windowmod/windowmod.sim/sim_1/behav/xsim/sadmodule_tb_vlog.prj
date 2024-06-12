@@ -1,0 +1,14 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../windowmod.srcs/sources_1/imports/new/sadmodule.v" \
+"../../../../windowmod.srcs/sources_1/imports/new/subtractor16in.v" \
+"../../../../windowmod.srcs/sources_1/imports/new/sum.v" \
+"../../../../windowmod.srcs/sources_1/imports/new/windowmodule.v" \
+"../../../../windowmod.srcs/sources_1/imports/new/windowsub.v" \
+"../../../../windowmod.srcs/sim_1/new/sad_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

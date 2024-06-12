@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_lab5top_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_lab5top" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="12500fs"></ZoomStartTime>
+      <ZoomEndTime time="87501fs"></ZoomEndTime>
+      <Cursor1Time time="75000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="169"></NameColumnWidth>
+      <ValueColumnWidth column_width="72"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="4" />
+   <wvobject fp_name="/tb_lab5top/uut/ClkOut" type="logic">
+      <obj_property name="ElementShortName">ClkOut</obj_property>
+      <obj_property name="ObjectShortName">ClkOut</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_lab5top/Reset" type="logic">
+      <obj_property name="ElementShortName">Reset</obj_property>
+      <obj_property name="ObjectShortName">Reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_lab5top/out7" type="array">
+      <obj_property name="ElementShortName">out7[6:0]</obj_property>
+      <obj_property name="ObjectShortName">out7[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_lab5top/en_out" type="array">
+      <obj_property name="ElementShortName">en_out[7:0]</obj_property>
+      <obj_property name="ObjectShortName">en_out[7:0]</obj_property>
+   </wvobject>
+</wave_config>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="test1_tb_func_impl.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="test1_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="81588fs"></ZoomStartTime>
+      <ZoomEndTime time="231589fs"></ZoomEndTime>
+      <Cursor1Time time="192099fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="177"></NameColumnWidth>
+      <ValueColumnWidth column_width="74"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="10" />
+   <wvobject fp_name="group108" type="group">
+      <obj_property name="label">SavedRegisters</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="group99" type="group">
+      <obj_property name="label">TempRegisters</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject fp_name="/test1_tb/Clk" type="logic">
+      <obj_property name="ElementShortName">Clk</obj_property>
+      <obj_property name="ObjectShortName">Clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="group12" type="group">
+      <obj_property name="label">GPR</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="group18" type="group">
+      <obj_property name="label">ALU</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="group30" type="group">
+      <obj_property name="label">Controller</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="group95" type="group">
+      <obj_property name="label">DataMem</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test1_tb/PC" type="array">
+      <obj_property name="ElementShortName">PC[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PC[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test1_tb/wb" type="array">
+      <obj_property name="ElementShortName">wb[31:0]</obj_property>
+      <obj_property name="ObjectShortName">wb[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test1_tb/Reset" type="logic">
+      <obj_property name="ElementShortName">Reset</obj_property>
+      <obj_property name="ObjectShortName">Reset</obj_property>
+   </wvobject>
+</wave_config>

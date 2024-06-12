@@ -1,0 +1,26 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../Lab4Verilog.srcs/sources_1/imports/DatapathComponents/ALU32Bit/ALU32Bit.v" \
+"../../../../Lab4Verilog.srcs/sources_1/new/Adder.v" \
+"../../../../Lab4Verilog.srcs/sources_1/new/Controller.v" \
+"../../../../Lab4Verilog.srcs/sources_1/imports/DatapathComponents/DataMemory/DataMemory.v" \
+"../../../../Lab4Verilog.srcs/sources_1/new/EX_MEM_Register.v" \
+"../../../../Lab4Verilog.srcs/sources_1/new/ID_EX_Register.v" \
+"../../../../Lab4Verilog.srcs/sources_1/new/IF_ID_Register.v" \
+"../../../../Lab4Verilog.srcs/sources_1/imports/1-InstructionFetchUnit/InstructionMemory.v" \
+"../../../../Lab4Verilog.srcs/sources_1/new/MEM_WB_Register.v" \
+"../../../../Lab4Verilog.srcs/sources_1/imports/DatapathComponents/Mux32Bit2To1/Mux32Bit2To1.v" \
+"../../../../Lab4Verilog.srcs/sources_1/imports/1-InstructionFetchUnit/PCAdder.v" \
+"../../../../Lab4Verilog.srcs/sources_1/imports/1-InstructionFetchUnit/ProgramCounter.v" \
+"../../../../Lab4Verilog.srcs/sources_1/imports/DatapathComponents/RegisterFile/RegisterFile.v" \
+"../../../../Lab4Verilog.srcs/sources_1/new/SL2.v" \
+"../../../../Lab4Verilog.srcs/sources_1/imports/DatapathComponents/SignExtension/SignExtension.v" \
+"../../../../Lab4Verilog.srcs/sources_1/new/and.v" \
+"../../../../Lab4Verilog.srcs/sources_1/new/head.v" \
+"../../../../Lab4Verilog.srcs/sim_1/new/test1_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

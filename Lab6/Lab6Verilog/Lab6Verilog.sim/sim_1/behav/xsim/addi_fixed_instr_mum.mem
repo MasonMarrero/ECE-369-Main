@@ -1,0 +1,7 @@
+00000000	//		nop ->		nop
+20090003	//		addi	$t1, $zero, 3 ->		addi	$t1, $zero, 0
+00000000	//		nop ->		nop
+00000000	//		nop ->		nop
+00000000	//		nop ->		nop
+00000000	//		nop ->		nop
+00000000	//		nop ->		nop

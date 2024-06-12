@@ -1,0 +1,30 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../Lab5Verilog.srcs/sources_1/imports/DatapathComponents/ALU32Bit/ALU32Bit.v" \
+"../../../../Lab5Verilog.srcs/sources_1/new/Adder.v" \
+"../../../../Lab5Verilog.srcs/sources_1/imports/Resources/4-ClockDivider/ClkDiv.v" \
+"../../../../Lab5Verilog.srcs/sources_1/new/Controller.v" \
+"../../../../Lab5Verilog.srcs/sources_1/imports/DatapathComponents/DataMemory/DataMemory.v" \
+"../../../../Lab5Verilog.srcs/sources_1/new/EX_MEM_Register.v" \
+"../../../../Lab5Verilog.srcs/sources_1/new/ID_EX_Register.v" \
+"../../../../Lab5Verilog.srcs/sources_1/new/IF_ID_Register.v" \
+"../../../../Lab5Verilog.srcs/sources_1/imports/1-InstructionFetchUnit/InstructionMemory.v" \
+"../../../../Lab5Verilog.srcs/sources_1/new/MEM_WB_Register.v" \
+"../../../../Lab5Verilog.srcs/sources_1/imports/DatapathComponents/Mux32Bit2To1/Mux32Bit2To1.v" \
+"../../../../Lab5Verilog.srcs/sources_1/imports/1-InstructionFetchUnit/PCAdder.v" \
+"../../../../Lab5Verilog.srcs/sources_1/imports/1-InstructionFetchUnit/ProgramCounter.v" \
+"../../../../Lab5Verilog.srcs/sources_1/imports/DatapathComponents/RegisterFile/RegisterFile.v" \
+"../../../../Lab5Verilog.srcs/sources_1/new/SL2.v" \
+"../../../../Lab5Verilog.srcs/sources_1/imports/Resources/5-Two4DigitDisplay/SevenSegment.v" \
+"../../../../Lab5Verilog.srcs/sources_1/imports/DatapathComponents/SignExtension/SignExtension.v" \
+"../../../../Lab5Verilog.srcs/sources_1/imports/Resources/5-Two4DigitDisplay/Two4DigitDisplay.v" \
+"../../../../Lab5Verilog.srcs/sources_1/new/and.v" \
+"../../../../Lab5Verilog.srcs/sources_1/new/head.v" \
+"../../../../Lab5Verilog.srcs/sources_1/new/lab5top.v" \
+"../../../../Lab5Verilog.srcs/sim_1/new/lab5_top_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

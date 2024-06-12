@@ -1,0 +1,7 @@
+0.7
+2020.2
+Nov 18 2020
+09:47:47
+C:/Users/alexr/Documents/Projects/ECE-369/Lab5/Lab5Verilog/Lab5Verilog.sim/sim_1/impl/func/xsim/tb_lab5top_func_impl.v,1699651339,verilog,,C:/Users/alexr/Documents/Projects/ECE-369/Lab5/Lab5Verilog/Lab5Verilog.srcs/sim_1/new/lab5_top_tb.v,,ALU32Bit;Adder;ClkDiv;Controller;EX_MEM_Register;ID_EX_Register;IF_ID_Register;MEM_WB_Register;Mux32Bit3To1;PCAdder;PCAdder_0;ProgramCounter;RegisterFile;Two4DigitDisplay;glbl;head;lab5top,,,,,,,,
+C:/Users/alexr/Documents/Projects/ECE-369/Lab5/Lab5Verilog/Lab5Verilog.srcs/sim_1/new/lab5_top_tb.v,1698613998,verilog,,,,tb_lab5top,,,,,,,,
+C:/Users/alexr/Documents/Projects/ECE-369/Lab5/Lab5Verilog/Lab5Verilog.srcs/sim_1/new/test1_tb.v,1698122363,verilog,,,,test1_tb,,,,,,,,

@@ -1,0 +1,173 @@
+`timescale 1ns / 1ps
+//////////////////////////////////////////////////////////////////////////////////
+// Generated Verilog Module
+module pipeline_reg_32_sads#
+    (parameter DATA_WIDTH = 16,
+     parameter INPUT_WIDTH = 8)
+    (
+    input Clk,
+
+    input [INPUT_WIDTH-1:0] in0_row,
+    input [INPUT_WIDTH-1:0] in0_col,
+    input [DATA_WIDTH-1:0] in0_sad,
+    output reg [INPUT_WIDTH-1:0] out0_row,
+    output reg [INPUT_WIDTH-1:0] out0_col,
+    output reg [DATA_WIDTH-1:0] out0_sad,
+
+    input [INPUT_WIDTH-1:0] in1_row,
+    input [INPUT_WIDTH-1:0] in1_col,
+    input [DATA_WIDTH-1:0] in1_sad,
+    output reg [INPUT_WIDTH-1:0] out1_row,
+    output reg [INPUT_WIDTH-1:0] out1_col,
+    output reg [DATA_WIDTH-1:0] out1_sad,
+
+    input [INPUT_WIDTH-1:0] in2_row,
+    input [INPUT_WIDTH-1:0] in2_col,
+    input [DATA_WIDTH-1:0] in2_sad,
+    output reg [INPUT_WIDTH-1:0] out2_row,
+    output reg [INPUT_WIDTH-1:0] out2_col,
+    output reg [DATA_WIDTH-1:0] out2_sad,
+
+    input [INPUT_WIDTH-1:0] in3_row,
+    input [INPUT_WIDTH-1:0] in3_col,
+    input [DATA_WIDTH-1:0] in3_sad,
+    output reg [INPUT_WIDTH-1:0] out3_row,
+    output reg [INPUT_WIDTH-1:0] out3_col,
+    output reg [DATA_WIDTH-1:0] out3_sad,
+
+    input [INPUT_WIDTH-1:0] in4_row,
+    input [INPUT_WIDTH-1:0] in4_col,
+    input [DATA_WIDTH-1:0] in4_sad,
+    output reg [INPUT_WIDTH-1:0] out4_row,
+    output reg [INPUT_WIDTH-1:0] out4_col,
+    output reg [DATA_WIDTH-1:0] out4_sad,
+
+    input [INPUT_WIDTH-1:0] in5_row,
+    input [INPUT_WIDTH-1:0] in5_col,
+    input [DATA_WIDTH-1:0] in5_sad,
+    output reg [INPUT_WIDTH-1:0] out5_row,
+    output reg [INPUT_WIDTH-1:0] out5_col,
+    output reg [DATA_WIDTH-1:0] out5_sad,
+
+    input [INPUT_WIDTH-1:0] in6_row,
+    input [INPUT_WIDTH-1:0] in6_col,
+    input [DATA_WIDTH-1:0] in6_sad,
+    output reg [INPUT_WIDTH-1:0] out6_row,
+    output reg [INPUT_WIDTH-1:0] out6_col,
+    output reg [DATA_WIDTH-1:0] out6_sad,
+
+    input [INPUT_WIDTH-1:0] in7_row,
+    input [INPUT_WIDTH-1:0] in7_col,
+    input [DATA_WIDTH-1:0] in7_sad,
+    output reg [INPUT_WIDTH-1:0] out7_row,
+    output reg [INPUT_WIDTH-1:0] out7_col,
+    output reg [DATA_WIDTH-1:0] out7_sad,
+
+    );
+
+    reg [INPUT_WIDTH-1:0] in_row_reg0;
+    reg [INPUT_WIDTH-1:0] in_col_reg0;
+    reg [DATA_WIDTH-1:0] in_sad_reg0;
+
+    reg [INPUT_WIDTH-1:0] in_row_reg1;
+    reg [INPUT_WIDTH-1:0] in_col_reg1;
+    reg [DATA_WIDTH-1:0] in_sad_reg1;
+
+    reg [INPUT_WIDTH-1:0] in_row_reg2;
+    reg [INPUT_WIDTH-1:0] in_col_reg2;
+    reg [DATA_WIDTH-1:0] in_sad_reg2;
+
+    reg [INPUT_WIDTH-1:0] in_row_reg3;
+    reg [INPUT_WIDTH-1:0] in_col_reg3;
+    reg [DATA_WIDTH-1:0] in_sad_reg3;
+
+    reg [INPUT_WIDTH-1:0] in_row_reg4;
+    reg [INPUT_WIDTH-1:0] in_col_reg4;
+    reg [DATA_WIDTH-1:0] in_sad_reg4;
+
+    reg [INPUT_WIDTH-1:0] in_row_reg5;
+    reg [INPUT_WIDTH-1:0] in_col_reg5;
+    reg [DATA_WIDTH-1:0] in_sad_reg5;
+
+    reg [INPUT_WIDTH-1:0] in_row_reg6;
+    reg [INPUT_WIDTH-1:0] in_col_reg6;
+    reg [DATA_WIDTH-1:0] in_sad_reg6;
+
+    reg [INPUT_WIDTH-1:0] in_row_reg7;
+    reg [INPUT_WIDTH-1:0] in_col_reg7;
+    reg [DATA_WIDTH-1:0] in_sad_reg7;
+
+
+    // Capture inputs on positive edge of clock
+    always @(posedge Clk) begin
+        in_row_reg0 <= in0_row;
+        in_col_reg0 <= in0_col;
+        in_sad_reg0 <= in0_sad;
+
+        in_row_reg1 <= in1_row;
+        in_col_reg1 <= in1_col;
+        in_sad_reg1 <= in1_sad;
+
+        in_row_reg2 <= in2_row;
+        in_col_reg2 <= in2_col;
+        in_sad_reg2 <= in2_sad;
+
+        in_row_reg3 <= in3_row;
+        in_col_reg3 <= in3_col;
+        in_sad_reg3 <= in3_sad;
+
+        in_row_reg4 <= in4_row;
+        in_col_reg4 <= in4_col;
+        in_sad_reg4 <= in4_sad;
+
+        in_row_reg5 <= in5_row;
+        in_col_reg5 <= in5_col;
+        in_sad_reg5 <= in5_sad;
+
+        in_row_reg6 <= in6_row;
+        in_col_reg6 <= in6_col;
+        in_sad_reg6 <= in6_sad;
+
+        in_row_reg7 <= in7_row;
+        in_col_reg7 <= in7_col;
+        in_sad_reg7 <= in7_sad;
+
+    end
+
+    // Transfer to outputs on negative edge of clock
+    always @(negedge Clk) begin
+        out0_row <= in_row_reg0;
+        out0_col <= in_col_reg0;
+        out0_sad <= in_sad_reg0;
+
+        out1_row <= in_row_reg1;
+        out1_col <= in_col_reg1;
+        out1_sad <= in_sad_reg1;
+
+        out2_row <= in_row_reg2;
+        out2_col <= in_col_reg2;
+        out2_sad <= in_sad_reg2;
+
+        out3_row <= in_row_reg3;
+        out3_col <= in_col_reg3;
+        out3_sad <= in_sad_reg3;
+
+        out4_row <= in_row_reg4;
+        out4_col <= in_col_reg4;
+        out4_sad <= in_sad_reg4;
+
+        out5_row <= in_row_reg5;
+        out5_col <= in_col_reg5;
+        out5_sad <= in_sad_reg5;
+
+        out6_row <= in_row_reg6;
+        out6_col <= in_col_reg6;
+        out6_sad <= in_sad_reg6;
+
+        out7_row <= in_row_reg7;
+        out7_col <= in_col_reg7;
+        out7_sad <= in_sad_reg7;
+
+    end
+
+endmodule

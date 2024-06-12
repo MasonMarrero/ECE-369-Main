@@ -1,0 +1,1342 @@
+	wire [DATA_WIDTH - 1:0] sum0;
+	sadmodule #(
+	    .DATA_WIDTH(DATA_WIDTH),
+	    .INPUT_WIDTH(INPUT_WIDTH),
+	    .MEM_WINDOW_FILE("sad_mem0.mem")
+	) sad0 (
+	    .clk(Clk),
+	    .row(top_row_wire),
+	    .sum(sum0)
+	);
+
+	wire [DATA_WIDTH - 1:0] sum1;
+	sadmodule #(
+	    .DATA_WIDTH(DATA_WIDTH),
+	    .INPUT_WIDTH(INPUT_WIDTH),
+	    .MEM_WINDOW_FILE("sad_mem1.mem")
+	) sad1 (
+	    .clk(Clk),
+	    .row(top_row_wire),
+	    .sum(sum1)
+	);
+
+	wire [DATA_WIDTH - 1:0] sum2;
+	sadmodule #(
+	    .DATA_WIDTH(DATA_WIDTH),
+	    .INPUT_WIDTH(INPUT_WIDTH),
+	    .MEM_WINDOW_FILE("sad_mem2.mem")
+	) sad2 (
+	    .clk(Clk),
+	    .row(top_row_wire),
+	    .sum(sum2)
+	);
+
+	wire [DATA_WIDTH - 1:0] sum3;
+	sadmodule #(
+	    .DATA_WIDTH(DATA_WIDTH),
+	    .INPUT_WIDTH(INPUT_WIDTH),
+	    .MEM_WINDOW_FILE("sad_mem3.mem")
+	) sad3 (
+	    .clk(Clk),
+	    .row(top_row_wire),
+	    .sum(sum3)
+	);
+
+	wire [DATA_WIDTH - 1:0] sum4;
+	sadmodule #(
+	    .DATA_WIDTH(DATA_WIDTH),
+	    .INPUT_WIDTH(INPUT_WIDTH),
+	    .MEM_WINDOW_FILE("sad_mem4.mem")
+	) sad4 (
+	    .clk(Clk),
+	    .row(top_row_wire),
+	    .sum(sum4)
+	);
+
+	wire [DATA_WIDTH - 1:0] sum5;
+	sadmodule #(
+	    .DATA_WIDTH(DATA_WIDTH),
+	    .INPUT_WIDTH(INPUT_WIDTH),
+	    .MEM_WINDOW_FILE("sad_mem5.mem")
+	) sad5 (
+	    .clk(Clk),
+	    .row(top_row_wire),
+	    .sum(sum5)
+	);
+
+	wire [DATA_WIDTH - 1:0] sum6;
+	sadmodule #(
+	    .DATA_WIDTH(DATA_WIDTH),
+	    .INPUT_WIDTH(INPUT_WIDTH),
+	    .MEM_WINDOW_FILE("sad_mem6.mem")
+	) sad6 (
+	    .clk(Clk),
+	    .row(top_row_wire),
+	    .sum(sum6)
+	);
+
+	wire [DATA_WIDTH - 1:0] sum7;
+	sadmodule #(
+	    .DATA_WIDTH(DATA_WIDTH),
+	    .INPUT_WIDTH(INPUT_WIDTH),
+	    .MEM_WINDOW_FILE("sad_mem7.mem")
+	) sad7 (
+	    .clk(Clk),
+	    .row(top_row_wire),
+	    .sum(sum7)
+	);
+
+	wire [DATA_WIDTH - 1:0] sum8;
+	sadmodule #(
+	    .DATA_WIDTH(DATA_WIDTH),
+	    .INPUT_WIDTH(INPUT_WIDTH),
+	    .MEM_WINDOW_FILE("sad_mem8.mem")
+	) sad8 (
+	    .clk(Clk),
+	    .row(top_row_wire),
+	    .sum(sum8)
+	);
+
+	wire [DATA_WIDTH - 1:0] sum9;
+	sadmodule #(
+	    .DATA_WIDTH(DATA_WIDTH),
+	    .INPUT_WIDTH(INPUT_WIDTH),
+	    .MEM_WINDOW_FILE("sad_mem9.mem")
+	) sad9 (
+	    .clk(Clk),
+	    .row(top_row_wire),
+	    .sum(sum9)
+	);
+
+	wire [DATA_WIDTH - 1:0] sum10;
+	sadmodule #(
+	    .DATA_WIDTH(DATA_WIDTH),
+	    .INPUT_WIDTH(INPUT_WIDTH),
+	    .MEM_WINDOW_FILE("sad_mem10.mem")
+	) sad10 (
+	    .clk(Clk),
+	    .row(top_row_wire),
+	    .sum(sum10)
+	);
+
+	wire [DATA_WIDTH - 1:0] sum11;
+	sadmodule #(
+	    .DATA_WIDTH(DATA_WIDTH),
+	    .INPUT_WIDTH(INPUT_WIDTH),
+	    .MEM_WINDOW_FILE("sad_mem11.mem")
+	) sad11 (
+	    .clk(Clk),
+	    .row(top_row_wire),
+	    .sum(sum11)
+	);
+
+	wire [DATA_WIDTH - 1:0] sum12;
+	sadmodule #(
+	    .DATA_WIDTH(DATA_WIDTH),
+	    .INPUT_WIDTH(INPUT_WIDTH),
+	    .MEM_WINDOW_FILE("sad_mem12.mem")
+	) sad12 (
+	    .clk(Clk),
+	    .row(top_row_wire),
+	    .sum(sum12)
+	);
+
+	wire [DATA_WIDTH - 1:0] sum13;
+	sadmodule #(
+	    .DATA_WIDTH(DATA_WIDTH),
+	    .INPUT_WIDTH(INPUT_WIDTH),
+	    .MEM_WINDOW_FILE("sad_mem13.mem")
+	) sad13 (
+	    .clk(Clk),
+	    .row(top_row_wire),
+	    .sum(sum13)
+	);
+
+	wire [DATA_WIDTH - 1:0] sum14;
+	sadmodule #(
+	    .DATA_WIDTH(DATA_WIDTH),
+	    .INPUT_WIDTH(INPUT_WIDTH),
+	    .MEM_WINDOW_FILE("sad_mem14.mem")
+	) sad14 (
+	    .clk(Clk),
+	    .row(top_row_wire),
+	    .sum(sum14)
+	);
+
+	wire [DATA_WIDTH - 1:0] sum15;
+	sadmodule #(
+	    .DATA_WIDTH(DATA_WIDTH),
+	    .INPUT_WIDTH(INPUT_WIDTH),
+	    .MEM_WINDOW_FILE("sad_mem15.mem")
+	) sad15 (
+	    .clk(Clk),
+	    .row(top_row_wire),
+	    .sum(sum15)
+	);
+
+	wire [DATA_WIDTH - 1:0] sum16;
+	sadmodule #(
+	    .DATA_WIDTH(DATA_WIDTH),
+	    .INPUT_WIDTH(INPUT_WIDTH),
+	    .MEM_WINDOW_FILE("sad_mem16.mem")
+	) sad16 (
+	    .clk(Clk),
+	    .row(top_row_wire),
+	    .sum(sum16)
+	);
+
+	wire [DATA_WIDTH - 1:0] sum17;
+	sadmodule #(
+	    .DATA_WIDTH(DATA_WIDTH),
+	    .INPUT_WIDTH(INPUT_WIDTH),
+	    .MEM_WINDOW_FILE("sad_mem17.mem")
+	) sad17 (
+	    .clk(Clk),
+	    .row(top_row_wire),
+	    .sum(sum17)
+	);
+
+	wire [DATA_WIDTH - 1:0] sum18;
+	sadmodule #(
+	    .DATA_WIDTH(DATA_WIDTH),
+	    .INPUT_WIDTH(INPUT_WIDTH),
+	    .MEM_WINDOW_FILE("sad_mem18.mem")
+	) sad18 (
+	    .clk(Clk),
+	    .row(top_row_wire),
+	    .sum(sum18)
+	);
+
+	wire [DATA_WIDTH - 1:0] sum19;
+	sadmodule #(
+	    .DATA_WIDTH(DATA_WIDTH),
+	    .INPUT_WIDTH(INPUT_WIDTH),
+	    .MEM_WINDOW_FILE("sad_mem19.mem")
+	) sad19 (
+	    .clk(Clk),
+	    .row(top_row_wire),
+	    .sum(sum19)
+	);
+
+	wire [DATA_WIDTH - 1:0] sum20;
+	sadmodule #(
+	    .DATA_WIDTH(DATA_WIDTH),
+	    .INPUT_WIDTH(INPUT_WIDTH),
+	    .MEM_WINDOW_FILE("sad_mem20.mem")
+	) sad20 (
+	    .clk(Clk),
+	    .row(top_row_wire),
+	    .sum(sum20)
+	);
+
+	wire [DATA_WIDTH - 1:0] sum21;
+	sadmodule #(
+	    .DATA_WIDTH(DATA_WIDTH),
+	    .INPUT_WIDTH(INPUT_WIDTH),
+	    .MEM_WINDOW_FILE("sad_mem21.mem")
+	) sad21 (
+	    .clk(Clk),
+	    .row(top_row_wire),
+	    .sum(sum21)
+	);
+
+	wire [DATA_WIDTH - 1:0] sum22;
+	sadmodule #(
+	    .DATA_WIDTH(DATA_WIDTH),
+	    .INPUT_WIDTH(INPUT_WIDTH),
+	    .MEM_WINDOW_FILE("sad_mem22.mem")
+	) sad22 (
+	    .clk(Clk),
+	    .row(top_row_wire),
+	    .sum(sum22)
+	);
+
+	wire [DATA_WIDTH - 1:0] sum23;
+	sadmodule #(
+	    .DATA_WIDTH(DATA_WIDTH),
+	    .INPUT_WIDTH(INPUT_WIDTH),
+	    .MEM_WINDOW_FILE("sad_mem23.mem")
+	) sad23 (
+	    .clk(Clk),
+	    .row(top_row_wire),
+	    .sum(sum23)
+	);
+
+	wire [DATA_WIDTH - 1:0] sum24;
+	sadmodule #(
+	    .DATA_WIDTH(DATA_WIDTH),
+	    .INPUT_WIDTH(INPUT_WIDTH),
+	    .MEM_WINDOW_FILE("sad_mem24.mem")
+	) sad24 (
+	    .clk(Clk),
+	    .row(top_row_wire),
+	    .sum(sum24)
+	);
+
+	wire [DATA_WIDTH - 1:0] sum25;
+	sadmodule #(
+	    .DATA_WIDTH(DATA_WIDTH),
+	    .INPUT_WIDTH(INPUT_WIDTH),
+	    .MEM_WINDOW_FILE("sad_mem25.mem")
+	) sad25 (
+	    .clk(Clk),
+	    .row(top_row_wire),
+	    .sum(sum25)
+	);
+
+	wire [DATA_WIDTH - 1:0] sum26;
+	sadmodule #(
+	    .DATA_WIDTH(DATA_WIDTH),
+	    .INPUT_WIDTH(INPUT_WIDTH),
+	    .MEM_WINDOW_FILE("sad_mem26.mem")
+	) sad26 (
+	    .clk(Clk),
+	    .row(top_row_wire),
+	    .sum(sum26)
+	);
+
+	wire [DATA_WIDTH - 1:0] sum27;
+	sadmodule #(
+	    .DATA_WIDTH(DATA_WIDTH),
+	    .INPUT_WIDTH(INPUT_WIDTH),
+	    .MEM_WINDOW_FILE("sad_mem27.mem")
+	) sad27 (
+	    .clk(Clk),
+	    .row(top_row_wire),
+	    .sum(sum27)
+	);
+
+	wire [DATA_WIDTH - 1:0] sum28;
+	sadmodule #(
+	    .DATA_WIDTH(DATA_WIDTH),
+	    .INPUT_WIDTH(INPUT_WIDTH),
+	    .MEM_WINDOW_FILE("sad_mem28.mem")
+	) sad28 (
+	    .clk(Clk),
+	    .row(top_row_wire),
+	    .sum(sum28)
+	);
+
+	wire [DATA_WIDTH - 1:0] sum29;
+	sadmodule #(
+	    .DATA_WIDTH(DATA_WIDTH),
+	    .INPUT_WIDTH(INPUT_WIDTH),
+	    .MEM_WINDOW_FILE("sad_mem29.mem")
+	) sad29 (
+	    .clk(Clk),
+	    .row(top_row_wire),
+	    .sum(sum29)
+	);
+
+	wire [DATA_WIDTH - 1:0] sum30;
+	sadmodule #(
+	    .DATA_WIDTH(DATA_WIDTH),
+	    .INPUT_WIDTH(INPUT_WIDTH),
+	    .MEM_WINDOW_FILE("sad_mem30.mem")
+	) sad30 (
+	    .clk(Clk),
+	    .row(top_row_wire),
+	    .sum(sum30)
+	);
+
+	wire [DATA_WIDTH - 1:0] sum31;
+	sadmodule #(
+	    .DATA_WIDTH(DATA_WIDTH),
+	    .INPUT_WIDTH(INPUT_WIDTH),
+	    .MEM_WINDOW_FILE("sad_mem31.mem")
+	) sad31 (
+	    .clk(Clk),
+	    .row(top_row_wire),
+	    .sum(sum31)
+	);
+
+	wire [DATA_WIDTH - 1:0] sum32;
+	sadmodule #(
+	    .DATA_WIDTH(DATA_WIDTH),
+	    .INPUT_WIDTH(INPUT_WIDTH),
+	    .MEM_WINDOW_FILE("sad_mem32.mem")
+	) sad32 (
+	    .clk(Clk),
+	    .row(top_row_wire),
+	    .sum(sum32)
+	);
+
+	wire [DATA_WIDTH - 1:0] sum33;
+	sadmodule #(
+	    .DATA_WIDTH(DATA_WIDTH),
+	    .INPUT_WIDTH(INPUT_WIDTH),
+	    .MEM_WINDOW_FILE("sad_mem33.mem")
+	) sad33 (
+	    .clk(Clk),
+	    .row(top_row_wire),
+	    .sum(sum33)
+	);
+
+	wire [DATA_WIDTH - 1:0] sum34;
+	sadmodule #(
+	    .DATA_WIDTH(DATA_WIDTH),
+	    .INPUT_WIDTH(INPUT_WIDTH),
+	    .MEM_WINDOW_FILE("sad_mem34.mem")
+	) sad34 (
+	    .clk(Clk),
+	    .row(top_row_wire),
+	    .sum(sum34)
+	);
+
+	wire [DATA_WIDTH - 1:0] sum35;
+	sadmodule #(
+	    .DATA_WIDTH(DATA_WIDTH),
+	    .INPUT_WIDTH(INPUT_WIDTH),
+	    .MEM_WINDOW_FILE("sad_mem35.mem")
+	) sad35 (
+	    .clk(Clk),
+	    .row(top_row_wire),
+	    .sum(sum35)
+	);
+
+	wire [DATA_WIDTH - 1:0] sum36;
+	sadmodule #(
+	    .DATA_WIDTH(DATA_WIDTH),
+	    .INPUT_WIDTH(INPUT_WIDTH),
+	    .MEM_WINDOW_FILE("sad_mem36.mem")
+	) sad36 (
+	    .clk(Clk),
+	    .row(top_row_wire),
+	    .sum(sum36)
+	);
+
+	wire [DATA_WIDTH - 1:0] sum37;
+	sadmodule #(
+	    .DATA_WIDTH(DATA_WIDTH),
+	    .INPUT_WIDTH(INPUT_WIDTH),
+	    .MEM_WINDOW_FILE("sad_mem37.mem")
+	) sad37 (
+	    .clk(Clk),
+	    .row(top_row_wire),
+	    .sum(sum37)
+	);
+
+	wire [DATA_WIDTH - 1:0] sum38;
+	sadmodule #(
+	    .DATA_WIDTH(DATA_WIDTH),
+	    .INPUT_WIDTH(INPUT_WIDTH),
+	    .MEM_WINDOW_FILE("sad_mem38.mem")
+	) sad38 (
+	    .clk(Clk),
+	    .row(top_row_wire),
+	    .sum(sum38)
+	);
+
+	wire [DATA_WIDTH - 1:0] sum39;
+	sadmodule #(
+	    .DATA_WIDTH(DATA_WIDTH),
+	    .INPUT_WIDTH(INPUT_WIDTH),
+	    .MEM_WINDOW_FILE("sad_mem39.mem")
+	) sad39 (
+	    .clk(Clk),
+	    .row(top_row_wire),
+	    .sum(sum39)
+	);
+
+	wire [DATA_WIDTH - 1:0] sum40;
+	sadmodule #(
+	    .DATA_WIDTH(DATA_WIDTH),
+	    .INPUT_WIDTH(INPUT_WIDTH),
+	    .MEM_WINDOW_FILE("sad_mem40.mem")
+	) sad40 (
+	    .clk(Clk),
+	    .row(top_row_wire),
+	    .sum(sum40)
+	);
+
+	wire [DATA_WIDTH - 1:0] sum41;
+	sadmodule #(
+	    .DATA_WIDTH(DATA_WIDTH),
+	    .INPUT_WIDTH(INPUT_WIDTH),
+	    .MEM_WINDOW_FILE("sad_mem41.mem")
+	) sad41 (
+	    .clk(Clk),
+	    .row(top_row_wire),
+	    .sum(sum41)
+	);
+
+	wire [DATA_WIDTH - 1:0] sum42;
+	sadmodule #(
+	    .DATA_WIDTH(DATA_WIDTH),
+	    .INPUT_WIDTH(INPUT_WIDTH),
+	    .MEM_WINDOW_FILE("sad_mem42.mem")
+	) sad42 (
+	    .clk(Clk),
+	    .row(top_row_wire),
+	    .sum(sum42)
+	);
+
+	wire [DATA_WIDTH - 1:0] sum43;
+	sadmodule #(
+	    .DATA_WIDTH(DATA_WIDTH),
+	    .INPUT_WIDTH(INPUT_WIDTH),
+	    .MEM_WINDOW_FILE("sad_mem43.mem")
+	) sad43 (
+	    .clk(Clk),
+	    .row(top_row_wire),
+	    .sum(sum43)
+	);
+
+	wire [DATA_WIDTH - 1:0] sum44;
+	sadmodule #(
+	    .DATA_WIDTH(DATA_WIDTH),
+	    .INPUT_WIDTH(INPUT_WIDTH),
+	    .MEM_WINDOW_FILE("sad_mem44.mem")
+	) sad44 (
+	    .clk(Clk),
+	    .row(top_row_wire),
+	    .sum(sum44)
+	);
+
+	wire [DATA_WIDTH - 1:0] sum45;
+	sadmodule #(
+	    .DATA_WIDTH(DATA_WIDTH),
+	    .INPUT_WIDTH(INPUT_WIDTH),
+	    .MEM_WINDOW_FILE("sad_mem45.mem")
+	) sad45 (
+	    .clk(Clk),
+	    .row(top_row_wire),
+	    .sum(sum45)
+	);
+
+	wire [DATA_WIDTH - 1:0] sum46;
+	sadmodule #(
+	    .DATA_WIDTH(DATA_WIDTH),
+	    .INPUT_WIDTH(INPUT_WIDTH),
+	    .MEM_WINDOW_FILE("sad_mem46.mem")
+	) sad46 (
+	    .clk(Clk),
+	    .row(top_row_wire),
+	    .sum(sum46)
+	);
+
+	wire [DATA_WIDTH - 1:0] sum47;
+	sadmodule #(
+	    .DATA_WIDTH(DATA_WIDTH),
+	    .INPUT_WIDTH(INPUT_WIDTH),
+	    .MEM_WINDOW_FILE("sad_mem47.mem")
+	) sad47 (
+	    .clk(Clk),
+	    .row(top_row_wire),
+	    .sum(sum47)
+	);
+
+	wire [DATA_WIDTH - 1:0] sum48;
+	sadmodule #(
+	    .DATA_WIDTH(DATA_WIDTH),
+	    .INPUT_WIDTH(INPUT_WIDTH),
+	    .MEM_WINDOW_FILE("sad_mem48.mem")
+	) sad48 (
+	    .clk(Clk),
+	    .row(top_row_wire),
+	    .sum(sum48)
+	);
+
+	wire [DATA_WIDTH - 1:0] sum49;
+	sadmodule #(
+	    .DATA_WIDTH(DATA_WIDTH),
+	    .INPUT_WIDTH(INPUT_WIDTH),
+	    .MEM_WINDOW_FILE("sad_mem49.mem")
+	) sad49 (
+	    .clk(Clk),
+	    .row(top_row_wire),
+	    .sum(sum49)
+	);
+
+	wire [DATA_WIDTH - 1:0] sum50;
+	sadmodule #(
+	    .DATA_WIDTH(DATA_WIDTH),
+	    .INPUT_WIDTH(INPUT_WIDTH),
+	    .MEM_WINDOW_FILE("sad_mem50.mem")
+	) sad50 (
+	    .clk(Clk),
+	    .row(top_row_wire),
+	    .sum(sum50)
+	);
+
+	wire [DATA_WIDTH - 1:0] sum51;
+	sadmodule #(
+	    .DATA_WIDTH(DATA_WIDTH),
+	    .INPUT_WIDTH(INPUT_WIDTH),
+	    .MEM_WINDOW_FILE("sad_mem51.mem")
+	) sad51 (
+	    .clk(Clk),
+	    .row(top_row_wire),
+	    .sum(sum51)
+	);
+
+	wire [DATA_WIDTH - 1:0] sum52;
+	sadmodule #(
+	    .DATA_WIDTH(DATA_WIDTH),
+	    .INPUT_WIDTH(INPUT_WIDTH),
+	    .MEM_WINDOW_FILE("sad_mem52.mem")
+	) sad52 (
+	    .clk(Clk),
+	    .row(top_row_wire),
+	    .sum(sum52)
+	);
+
+	wire [DATA_WIDTH - 1:0] sum53;
+	sadmodule #(
+	    .DATA_WIDTH(DATA_WIDTH),
+	    .INPUT_WIDTH(INPUT_WIDTH),
+	    .MEM_WINDOW_FILE("sad_mem53.mem")
+	) sad53 (
+	    .clk(Clk),
+	    .row(top_row_wire),
+	    .sum(sum53)
+	);
+
+	wire [DATA_WIDTH - 1:0] sum54;
+	sadmodule #(
+	    .DATA_WIDTH(DATA_WIDTH),
+	    .INPUT_WIDTH(INPUT_WIDTH),
+	    .MEM_WINDOW_FILE("sad_mem54.mem")
+	) sad54 (
+	    .clk(Clk),
+	    .row(top_row_wire),
+	    .sum(sum54)
+	);
+
+	wire [DATA_WIDTH - 1:0] sum55;
+	sadmodule #(
+	    .DATA_WIDTH(DATA_WIDTH),
+	    .INPUT_WIDTH(INPUT_WIDTH),
+	    .MEM_WINDOW_FILE("sad_mem55.mem")
+	) sad55 (
+	    .clk(Clk),
+	    .row(top_row_wire),
+	    .sum(sum55)
+	);
+
+	wire [DATA_WIDTH - 1:0] sum56;
+	sadmodule #(
+	    .DATA_WIDTH(DATA_WIDTH),
+	    .INPUT_WIDTH(INPUT_WIDTH),
+	    .MEM_WINDOW_FILE("sad_mem56.mem")
+	) sad56 (
+	    .clk(Clk),
+	    .row(top_row_wire),
+	    .sum(sum56)
+	);
+
+	wire [DATA_WIDTH - 1:0] sum57;
+	sadmodule #(
+	    .DATA_WIDTH(DATA_WIDTH),
+	    .INPUT_WIDTH(INPUT_WIDTH),
+	    .MEM_WINDOW_FILE("sad_mem57.mem")
+	) sad57 (
+	    .clk(Clk),
+	    .row(top_row_wire),
+	    .sum(sum57)
+	);
+
+	wire [DATA_WIDTH - 1:0] sum58;
+	sadmodule #(
+	    .DATA_WIDTH(DATA_WIDTH),
+	    .INPUT_WIDTH(INPUT_WIDTH),
+	    .MEM_WINDOW_FILE("sad_mem58.mem")
+	) sad58 (
+	    .clk(Clk),
+	    .row(top_row_wire),
+	    .sum(sum58)
+	);
+
+	wire [DATA_WIDTH - 1:0] sum59;
+	sadmodule #(
+	    .DATA_WIDTH(DATA_WIDTH),
+	    .INPUT_WIDTH(INPUT_WIDTH),
+	    .MEM_WINDOW_FILE("sad_mem59.mem")
+	) sad59 (
+	    .clk(Clk),
+	    .row(top_row_wire),
+	    .sum(sum59)
+	);
+
+	wire [DATA_WIDTH - 1:0] sum60;
+	sadmodule #(
+	    .DATA_WIDTH(DATA_WIDTH),
+	    .INPUT_WIDTH(INPUT_WIDTH),
+	    .MEM_WINDOW_FILE("sad_mem60.mem")
+	) sad60 (
+	    .clk(Clk),
+	    .row(top_row_wire),
+	    .sum(sum60)
+	);
+
+	wire [DATA_WIDTH - 1:0] sum61;
+	sadmodule #(
+	    .DATA_WIDTH(DATA_WIDTH),
+	    .INPUT_WIDTH(INPUT_WIDTH),
+	    .MEM_WINDOW_FILE("sad_mem61.mem")
+	) sad61 (
+	    .clk(Clk),
+	    .row(top_row_wire),
+	    .sum(sum61)
+	);
+
+	wire [DATA_WIDTH - 1:0] sum62;
+	sadmodule #(
+	    .DATA_WIDTH(DATA_WIDTH),
+	    .INPUT_WIDTH(INPUT_WIDTH),
+	    .MEM_WINDOW_FILE("sad_mem62.mem")
+	) sad62 (
+	    .clk(Clk),
+	    .row(top_row_wire),
+	    .sum(sum62)
+	);
+
+	wire [DATA_WIDTH - 1:0] sum63;
+	sadmodule #(
+	    .DATA_WIDTH(DATA_WIDTH),
+	    .INPUT_WIDTH(INPUT_WIDTH),
+	    .MEM_WINDOW_FILE("sad_mem63.mem")
+	) sad63 (
+	    .clk(Clk),
+	    .row(top_row_wire),
+	    .sum(sum63)
+	);
+
+	wire [DATA_WIDTH - 1:0] sum64;
+	sadmodule #(
+	    .DATA_WIDTH(DATA_WIDTH),
+	    .INPUT_WIDTH(INPUT_WIDTH),
+	    .MEM_WINDOW_FILE("sad_mem64.mem")
+	) sad64 (
+	    .clk(Clk),
+	    .row(top_row_wire),
+	    .sum(sum64)
+	);
+
+	wire [DATA_WIDTH - 1:0] sum65;
+	sadmodule #(
+	    .DATA_WIDTH(DATA_WIDTH),
+	    .INPUT_WIDTH(INPUT_WIDTH),
+	    .MEM_WINDOW_FILE("sad_mem65.mem")
+	) sad65 (
+	    .clk(Clk),
+	    .row(top_row_wire),
+	    .sum(sum65)
+	);
+
+	wire [DATA_WIDTH - 1:0] sum66;
+	sadmodule #(
+	    .DATA_WIDTH(DATA_WIDTH),
+	    .INPUT_WIDTH(INPUT_WIDTH),
+	    .MEM_WINDOW_FILE("sad_mem66.mem")
+	) sad66 (
+	    .clk(Clk),
+	    .row(top_row_wire),
+	    .sum(sum66)
+	);
+
+	wire [DATA_WIDTH - 1:0] sum67;
+	sadmodule #(
+	    .DATA_WIDTH(DATA_WIDTH),
+	    .INPUT_WIDTH(INPUT_WIDTH),
+	    .MEM_WINDOW_FILE("sad_mem67.mem")
+	) sad67 (
+	    .clk(Clk),
+	    .row(top_row_wire),
+	    .sum(sum67)
+	);
+
+	wire [DATA_WIDTH - 1:0] sum68;
+	sadmodule #(
+	    .DATA_WIDTH(DATA_WIDTH),
+	    .INPUT_WIDTH(INPUT_WIDTH),
+	    .MEM_WINDOW_FILE("sad_mem68.mem")
+	) sad68 (
+	    .clk(Clk),
+	    .row(top_row_wire),
+	    .sum(sum68)
+	);
+
+	wire [DATA_WIDTH - 1:0] sum69;
+	sadmodule #(
+	    .DATA_WIDTH(DATA_WIDTH),
+	    .INPUT_WIDTH(INPUT_WIDTH),
+	    .MEM_WINDOW_FILE("sad_mem69.mem")
+	) sad69 (
+	    .clk(Clk),
+	    .row(top_row_wire),
+	    .sum(sum69)
+	);
+
+	wire [DATA_WIDTH - 1:0] sum70;
+	sadmodule #(
+	    .DATA_WIDTH(DATA_WIDTH),
+	    .INPUT_WIDTH(INPUT_WIDTH),
+	    .MEM_WINDOW_FILE("sad_mem70.mem")
+	) sad70 (
+	    .clk(Clk),
+	    .row(top_row_wire),
+	    .sum(sum70)
+	);
+
+	wire [DATA_WIDTH - 1:0] sum71;
+	sadmodule #(
+	    .DATA_WIDTH(DATA_WIDTH),
+	    .INPUT_WIDTH(INPUT_WIDTH),
+	    .MEM_WINDOW_FILE("sad_mem71.mem")
+	) sad71 (
+	    .clk(Clk),
+	    .row(top_row_wire),
+	    .sum(sum71)
+	);
+
+	wire [DATA_WIDTH - 1:0] sum72;
+	sadmodule #(
+	    .DATA_WIDTH(DATA_WIDTH),
+	    .INPUT_WIDTH(INPUT_WIDTH),
+	    .MEM_WINDOW_FILE("sad_mem72.mem")
+	) sad72 (
+	    .clk(Clk),
+	    .row(top_row_wire),
+	    .sum(sum72)
+	);
+
+	wire [DATA_WIDTH - 1:0] sum73;
+	sadmodule #(
+	    .DATA_WIDTH(DATA_WIDTH),
+	    .INPUT_WIDTH(INPUT_WIDTH),
+	    .MEM_WINDOW_FILE("sad_mem73.mem")
+	) sad73 (
+	    .clk(Clk),
+	    .row(top_row_wire),
+	    .sum(sum73)
+	);
+
+	wire [DATA_WIDTH - 1:0] sum74;
+	sadmodule #(
+	    .DATA_WIDTH(DATA_WIDTH),
+	    .INPUT_WIDTH(INPUT_WIDTH),
+	    .MEM_WINDOW_FILE("sad_mem74.mem")
+	) sad74 (
+	    .clk(Clk),
+	    .row(top_row_wire),
+	    .sum(sum74)
+	);
+
+	wire [DATA_WIDTH - 1:0] sum75;
+	sadmodule #(
+	    .DATA_WIDTH(DATA_WIDTH),
+	    .INPUT_WIDTH(INPUT_WIDTH),
+	    .MEM_WINDOW_FILE("sad_mem75.mem")
+	) sad75 (
+	    .clk(Clk),
+	    .row(top_row_wire),
+	    .sum(sum75)
+	);
+
+	wire [DATA_WIDTH - 1:0] sum76;
+	sadmodule #(
+	    .DATA_WIDTH(DATA_WIDTH),
+	    .INPUT_WIDTH(INPUT_WIDTH),
+	    .MEM_WINDOW_FILE("sad_mem76.mem")
+	) sad76 (
+	    .clk(Clk),
+	    .row(top_row_wire),
+	    .sum(sum76)
+	);
+
+	wire [DATA_WIDTH - 1:0] sum77;
+	sadmodule #(
+	    .DATA_WIDTH(DATA_WIDTH),
+	    .INPUT_WIDTH(INPUT_WIDTH),
+	    .MEM_WINDOW_FILE("sad_mem77.mem")
+	) sad77 (
+	    .clk(Clk),
+	    .row(top_row_wire),
+	    .sum(sum77)
+	);
+
+	wire [DATA_WIDTH - 1:0] sum78;
+	sadmodule #(
+	    .DATA_WIDTH(DATA_WIDTH),
+	    .INPUT_WIDTH(INPUT_WIDTH),
+	    .MEM_WINDOW_FILE("sad_mem78.mem")
+	) sad78 (
+	    .clk(Clk),
+	    .row(top_row_wire),
+	    .sum(sum78)
+	);
+
+	wire [DATA_WIDTH - 1:0] sum79;
+	sadmodule #(
+	    .DATA_WIDTH(DATA_WIDTH),
+	    .INPUT_WIDTH(INPUT_WIDTH),
+	    .MEM_WINDOW_FILE("sad_mem79.mem")
+	) sad79 (
+	    .clk(Clk),
+	    .row(top_row_wire),
+	    .sum(sum79)
+	);
+
+	wire [DATA_WIDTH - 1:0] sum80;
+	sadmodule #(
+	    .DATA_WIDTH(DATA_WIDTH),
+	    .INPUT_WIDTH(INPUT_WIDTH),
+	    .MEM_WINDOW_FILE("sad_mem80.mem")
+	) sad80 (
+	    .clk(Clk),
+	    .row(top_row_wire),
+	    .sum(sum80)
+	);
+
+	wire [DATA_WIDTH - 1:0] sum81;
+	sadmodule #(
+	    .DATA_WIDTH(DATA_WIDTH),
+	    .INPUT_WIDTH(INPUT_WIDTH),
+	    .MEM_WINDOW_FILE("sad_mem81.mem")
+	) sad81 (
+	    .clk(Clk),
+	    .row(top_row_wire),
+	    .sum(sum81)
+	);
+
+	wire [DATA_WIDTH - 1:0] sum82;
+	sadmodule #(
+	    .DATA_WIDTH(DATA_WIDTH),
+	    .INPUT_WIDTH(INPUT_WIDTH),
+	    .MEM_WINDOW_FILE("sad_mem82.mem")
+	) sad82 (
+	    .clk(Clk),
+	    .row(top_row_wire),
+	    .sum(sum82)
+	);
+
+	wire [DATA_WIDTH - 1:0] sum83;
+	sadmodule #(
+	    .DATA_WIDTH(DATA_WIDTH),
+	    .INPUT_WIDTH(INPUT_WIDTH),
+	    .MEM_WINDOW_FILE("sad_mem83.mem")
+	) sad83 (
+	    .clk(Clk),
+	    .row(top_row_wire),
+	    .sum(sum83)
+	);
+
+	wire [DATA_WIDTH - 1:0] sum84;
+	sadmodule #(
+	    .DATA_WIDTH(DATA_WIDTH),
+	    .INPUT_WIDTH(INPUT_WIDTH),
+	    .MEM_WINDOW_FILE("sad_mem84.mem")
+	) sad84 (
+	    .clk(Clk),
+	    .row(top_row_wire),
+	    .sum(sum84)
+	);
+
+	wire [DATA_WIDTH - 1:0] sum85;
+	sadmodule #(
+	    .DATA_WIDTH(DATA_WIDTH),
+	    .INPUT_WIDTH(INPUT_WIDTH),
+	    .MEM_WINDOW_FILE("sad_mem85.mem")
+	) sad85 (
+	    .clk(Clk),
+	    .row(top_row_wire),
+	    .sum(sum85)
+	);
+
+	wire [DATA_WIDTH - 1:0] sum86;
+	sadmodule #(
+	    .DATA_WIDTH(DATA_WIDTH),
+	    .INPUT_WIDTH(INPUT_WIDTH),
+	    .MEM_WINDOW_FILE("sad_mem86.mem")
+	) sad86 (
+	    .clk(Clk),
+	    .row(top_row_wire),
+	    .sum(sum86)
+	);
+
+	wire [DATA_WIDTH - 1:0] sum87;
+	sadmodule #(
+	    .DATA_WIDTH(DATA_WIDTH),
+	    .INPUT_WIDTH(INPUT_WIDTH),
+	    .MEM_WINDOW_FILE("sad_mem87.mem")
+	) sad87 (
+	    .clk(Clk),
+	    .row(top_row_wire),
+	    .sum(sum87)
+	);
+
+	wire [DATA_WIDTH - 1:0] sum88;
+	sadmodule #(
+	    .DATA_WIDTH(DATA_WIDTH),
+	    .INPUT_WIDTH(INPUT_WIDTH),
+	    .MEM_WINDOW_FILE("sad_mem88.mem")
+	) sad88 (
+	    .clk(Clk),
+	    .row(top_row_wire),
+	    .sum(sum88)
+	);
+
+	wire [DATA_WIDTH - 1:0] sum89;
+	sadmodule #(
+	    .DATA_WIDTH(DATA_WIDTH),
+	    .INPUT_WIDTH(INPUT_WIDTH),
+	    .MEM_WINDOW_FILE("sad_mem89.mem")
+	) sad89 (
+	    .clk(Clk),
+	    .row(top_row_wire),
+	    .sum(sum89)
+	);
+
+	wire [DATA_WIDTH - 1:0] sum90;
+	sadmodule #(
+	    .DATA_WIDTH(DATA_WIDTH),
+	    .INPUT_WIDTH(INPUT_WIDTH),
+	    .MEM_WINDOW_FILE("sad_mem90.mem")
+	) sad90 (
+	    .clk(Clk),
+	    .row(top_row_wire),
+	    .sum(sum90)
+	);
+
+	wire [DATA_WIDTH - 1:0] sum91;
+	sadmodule #(
+	    .DATA_WIDTH(DATA_WIDTH),
+	    .INPUT_WIDTH(INPUT_WIDTH),
+	    .MEM_WINDOW_FILE("sad_mem91.mem")
+	) sad91 (
+	    .clk(Clk),
+	    .row(top_row_wire),
+	    .sum(sum91)
+	);
+
+	wire [DATA_WIDTH - 1:0] sum92;
+	sadmodule #(
+	    .DATA_WIDTH(DATA_WIDTH),
+	    .INPUT_WIDTH(INPUT_WIDTH),
+	    .MEM_WINDOW_FILE("sad_mem92.mem")
+	) sad92 (
+	    .clk(Clk),
+	    .row(top_row_wire),
+	    .sum(sum92)
+	);
+
+	wire [DATA_WIDTH - 1:0] sum93;
+	sadmodule #(
+	    .DATA_WIDTH(DATA_WIDTH),
+	    .INPUT_WIDTH(INPUT_WIDTH),
+	    .MEM_WINDOW_FILE("sad_mem93.mem")
+	) sad93 (
+	    .clk(Clk),
+	    .row(top_row_wire),
+	    .sum(sum93)
+	);
+
+	wire [DATA_WIDTH - 1:0] sum94;
+	sadmodule #(
+	    .DATA_WIDTH(DATA_WIDTH),
+	    .INPUT_WIDTH(INPUT_WIDTH),
+	    .MEM_WINDOW_FILE("sad_mem94.mem")
+	) sad94 (
+	    .clk(Clk),
+	    .row(top_row_wire),
+	    .sum(sum94)
+	);
+
+	wire [DATA_WIDTH - 1:0] sum95;
+	sadmodule #(
+	    .DATA_WIDTH(DATA_WIDTH),
+	    .INPUT_WIDTH(INPUT_WIDTH),
+	    .MEM_WINDOW_FILE("sad_mem95.mem")
+	) sad95 (
+	    .clk(Clk),
+	    .row(top_row_wire),
+	    .sum(sum95)
+	);
+
+	wire [DATA_WIDTH - 1:0] sum96;
+	sadmodule #(
+	    .DATA_WIDTH(DATA_WIDTH),
+	    .INPUT_WIDTH(INPUT_WIDTH),
+	    .MEM_WINDOW_FILE("sad_mem96.mem")
+	) sad96 (
+	    .clk(Clk),
+	    .row(top_row_wire),
+	    .sum(sum96)
+	);
+
+	wire [DATA_WIDTH - 1:0] sum97;
+	sadmodule #(
+	    .DATA_WIDTH(DATA_WIDTH),
+	    .INPUT_WIDTH(INPUT_WIDTH),
+	    .MEM_WINDOW_FILE("sad_mem97.mem")
+	) sad97 (
+	    .clk(Clk),
+	    .row(top_row_wire),
+	    .sum(sum97)
+	);
+
+	wire [DATA_WIDTH - 1:0] sum98;
+	sadmodule #(
+	    .DATA_WIDTH(DATA_WIDTH),
+	    .INPUT_WIDTH(INPUT_WIDTH),
+	    .MEM_WINDOW_FILE("sad_mem98.mem")
+	) sad98 (
+	    .clk(Clk),
+	    .row(top_row_wire),
+	    .sum(sum98)
+	);
+
+	wire [DATA_WIDTH - 1:0] sum99;
+	sadmodule #(
+	    .DATA_WIDTH(DATA_WIDTH),
+	    .INPUT_WIDTH(INPUT_WIDTH),
+	    .MEM_WINDOW_FILE("sad_mem99.mem")
+	) sad99 (
+	    .clk(Clk),
+	    .row(top_row_wire),
+	    .sum(sum99)
+	);
+
+	wire [DATA_WIDTH - 1:0] sum100;
+	sadmodule #(
+	    .DATA_WIDTH(DATA_WIDTH),
+	    .INPUT_WIDTH(INPUT_WIDTH),
+	    .MEM_WINDOW_FILE("sad_mem100.mem")
+	) sad100 (
+	    .clk(Clk),
+	    .row(top_row_wire),
+	    .sum(sum100)
+	);
+
+	wire [DATA_WIDTH - 1:0] sum101;
+	sadmodule #(
+	    .DATA_WIDTH(DATA_WIDTH),
+	    .INPUT_WIDTH(INPUT_WIDTH),
+	    .MEM_WINDOW_FILE("sad_mem101.mem")
+	) sad101 (
+	    .clk(Clk),
+	    .row(top_row_wire),
+	    .sum(sum101)
+	);
+
+	wire [DATA_WIDTH - 1:0] sum102;
+	sadmodule #(
+	    .DATA_WIDTH(DATA_WIDTH),
+	    .INPUT_WIDTH(INPUT_WIDTH),
+	    .MEM_WINDOW_FILE("sad_mem102.mem")
+	) sad102 (
+	    .clk(Clk),
+	    .row(top_row_wire),
+	    .sum(sum102)
+	);
+
+	wire [DATA_WIDTH - 1:0] sum103;
+	sadmodule #(
+	    .DATA_WIDTH(DATA_WIDTH),
+	    .INPUT_WIDTH(INPUT_WIDTH),
+	    .MEM_WINDOW_FILE("sad_mem103.mem")
+	) sad103 (
+	    .clk(Clk),
+	    .row(top_row_wire),
+	    .sum(sum103)
+	);
+
+	wire [DATA_WIDTH - 1:0] sum104;
+	sadmodule #(
+	    .DATA_WIDTH(DATA_WIDTH),
+	    .INPUT_WIDTH(INPUT_WIDTH),
+	    .MEM_WINDOW_FILE("sad_mem104.mem")
+	) sad104 (
+	    .clk(Clk),
+	    .row(top_row_wire),
+	    .sum(sum104)
+	);
+
+	wire [DATA_WIDTH - 1:0] sum105;
+	sadmodule #(
+	    .DATA_WIDTH(DATA_WIDTH),
+	    .INPUT_WIDTH(INPUT_WIDTH),
+	    .MEM_WINDOW_FILE("sad_mem105.mem")
+	) sad105 (
+	    .clk(Clk),
+	    .row(top_row_wire),
+	    .sum(sum105)
+	);
+
+	wire [DATA_WIDTH - 1:0] sum106;
+	sadmodule #(
+	    .DATA_WIDTH(DATA_WIDTH),
+	    .INPUT_WIDTH(INPUT_WIDTH),
+	    .MEM_WINDOW_FILE("sad_mem106.mem")
+	) sad106 (
+	    .clk(Clk),
+	    .row(top_row_wire),
+	    .sum(sum106)
+	);
+
+	wire [DATA_WIDTH - 1:0] sum107;
+	sadmodule #(
+	    .DATA_WIDTH(DATA_WIDTH),
+	    .INPUT_WIDTH(INPUT_WIDTH),
+	    .MEM_WINDOW_FILE("sad_mem107.mem")
+	) sad107 (
+	    .clk(Clk),
+	    .row(top_row_wire),
+	    .sum(sum107)
+	);
+
+	wire [DATA_WIDTH - 1:0] sum108;
+	sadmodule #(
+	    .DATA_WIDTH(DATA_WIDTH),
+	    .INPUT_WIDTH(INPUT_WIDTH),
+	    .MEM_WINDOW_FILE("sad_mem108.mem")
+	) sad108 (
+	    .clk(Clk),
+	    .row(top_row_wire),
+	    .sum(sum108)
+	);
+
+	wire [DATA_WIDTH - 1:0] sum109;
+	sadmodule #(
+	    .DATA_WIDTH(DATA_WIDTH),
+	    .INPUT_WIDTH(INPUT_WIDTH),
+	    .MEM_WINDOW_FILE("sad_mem109.mem")
+	) sad109 (
+	    .clk(Clk),
+	    .row(top_row_wire),
+	    .sum(sum109)
+	);
+
+	wire [DATA_WIDTH - 1:0] sum110;
+	sadmodule #(
+	    .DATA_WIDTH(DATA_WIDTH),
+	    .INPUT_WIDTH(INPUT_WIDTH),
+	    .MEM_WINDOW_FILE("sad_mem110.mem")
+	) sad110 (
+	    .clk(Clk),
+	    .row(top_row_wire),
+	    .sum(sum110)
+	);
+
+	wire [DATA_WIDTH - 1:0] sum111;
+	sadmodule #(
+	    .DATA_WIDTH(DATA_WIDTH),
+	    .INPUT_WIDTH(INPUT_WIDTH),
+	    .MEM_WINDOW_FILE("sad_mem111.mem")
+	) sad111 (
+	    .clk(Clk),
+	    .row(top_row_wire),
+	    .sum(sum111)
+	);
+
+	wire [DATA_WIDTH - 1:0] sum112;
+	sadmodule #(
+	    .DATA_WIDTH(DATA_WIDTH),
+	    .INPUT_WIDTH(INPUT_WIDTH),
+	    .MEM_WINDOW_FILE("sad_mem112.mem")
+	) sad112 (
+	    .clk(Clk),
+	    .row(top_row_wire),
+	    .sum(sum112)
+	);
+
+	wire [DATA_WIDTH - 1:0] sum113;
+	sadmodule #(
+	    .DATA_WIDTH(DATA_WIDTH),
+	    .INPUT_WIDTH(INPUT_WIDTH),
+	    .MEM_WINDOW_FILE("sad_mem113.mem")
+	) sad113 (
+	    .clk(Clk),
+	    .row(top_row_wire),
+	    .sum(sum113)
+	);
+
+	wire [DATA_WIDTH - 1:0] sum114;
+	sadmodule #(
+	    .DATA_WIDTH(DATA_WIDTH),
+	    .INPUT_WIDTH(INPUT_WIDTH),
+	    .MEM_WINDOW_FILE("sad_mem114.mem")
+	) sad114 (
+	    .clk(Clk),
+	    .row(top_row_wire),
+	    .sum(sum114)
+	);
+
+	wire [DATA_WIDTH - 1:0] sum115;
+	sadmodule #(
+	    .DATA_WIDTH(DATA_WIDTH),
+	    .INPUT_WIDTH(INPUT_WIDTH),
+	    .MEM_WINDOW_FILE("sad_mem115.mem")
+	) sad115 (
+	    .clk(Clk),
+	    .row(top_row_wire),
+	    .sum(sum115)
+	);
+
+	wire [DATA_WIDTH - 1:0] sum116;
+	sadmodule #(
+	    .DATA_WIDTH(DATA_WIDTH),
+	    .INPUT_WIDTH(INPUT_WIDTH),
+	    .MEM_WINDOW_FILE("sad_mem116.mem")
+	) sad116 (
+	    .clk(Clk),
+	    .row(top_row_wire),
+	    .sum(sum116)
+	);
+
+	wire [DATA_WIDTH - 1:0] sum117;
+	sadmodule #(
+	    .DATA_WIDTH(DATA_WIDTH),
+	    .INPUT_WIDTH(INPUT_WIDTH),
+	    .MEM_WINDOW_FILE("sad_mem117.mem")
+	) sad117 (
+	    .clk(Clk),
+	    .row(top_row_wire),
+	    .sum(sum117)
+	);
+
+	wire [DATA_WIDTH - 1:0] sum118;
+	sadmodule #(
+	    .DATA_WIDTH(DATA_WIDTH),
+	    .INPUT_WIDTH(INPUT_WIDTH),
+	    .MEM_WINDOW_FILE("sad_mem118.mem")
+	) sad118 (
+	    .clk(Clk),
+	    .row(top_row_wire),
+	    .sum(sum118)
+	);
+
+	wire [DATA_WIDTH - 1:0] sum119;
+	sadmodule #(
+	    .DATA_WIDTH(DATA_WIDTH),
+	    .INPUT_WIDTH(INPUT_WIDTH),
+	    .MEM_WINDOW_FILE("sad_mem119.mem")
+	) sad119 (
+	    .clk(Clk),
+	    .row(top_row_wire),
+	    .sum(sum119)
+	);
+
+	wire [DATA_WIDTH - 1:0] sum120;
+	sadmodule #(
+	    .DATA_WIDTH(DATA_WIDTH),
+	    .INPUT_WIDTH(INPUT_WIDTH),
+	    .MEM_WINDOW_FILE("sad_mem120.mem")
+	) sad120 (
+	    .clk(Clk),
+	    .row(top_row_wire),
+	    .sum(sum120)
+	);
+
+	wire [DATA_WIDTH - 1:0] sum121;
+	sadmodule #(
+	    .DATA_WIDTH(DATA_WIDTH),
+	    .INPUT_WIDTH(INPUT_WIDTH),
+	    .MEM_WINDOW_FILE("sad_mem121.mem")
+	) sad121 (
+	    .clk(Clk),
+	    .row(top_row_wire),
+	    .sum(sum121)
+	);
+
